@@ -1,0 +1,52 @@
+@font-face { font-family: 'Asap'; src: url('fonts/Asap-VariableFont_wght.ttf'); } 
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Asap;
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+a{
+    color: #27b6bc;
+}
+
+nav{
+    background-color: #025a5f;
+    width: 100%;
+}
+
+label.logo img{
+    padding: 10px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 110px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+a.active,a:hover{
+    background: #003036;
+    transition: .5s;
+}
