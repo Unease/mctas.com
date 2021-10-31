@@ -35,18 +35,13 @@ header::after {
 .logo{
     float: left;
     padding: 10px;
-    margin-left: 20px;
     width: 250px;
     height: auto;
+    margin-right: 60px;
 }
 
 nav {
     float: right;
-}
-
-nav ul{
-    margin-right: 50px;
-    margin-top: 40px;
 }
 
 nav ul li{
@@ -72,7 +67,6 @@ nav a.active, nav a:hover{
 div.text{
     padding: 20px;
     margin-left: 30px;
-    float: left;
 }
 
 div.text section h2{
@@ -81,12 +75,35 @@ div.text section h2{
 
 div.sidebar{
     padding: 20px;
-    float: right;
+    float: left;
     border: 2px solid white;
-    margin: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
     border-radius: 25px;
+    height: 4em;
 }
 
 div.sidebar li{
     padding-bottom: 5px;
+}
+
+.centerHor{
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    justify-content: center;
+}
+.center{
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
 }
