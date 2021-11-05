@@ -64,23 +64,32 @@ nav a.active, nav a:hover{
 
 /*==============================Textcontent*/
 
-div.text{
-    padding: 20px;
-    margin-left: 30px;
-}
-
-div.text section h2{
-    margin: 30px 0 10px;
-}
-
-div.sidebar{
-    padding: 20px;
-    float: left;
-    border: 2px solid white;
-    margin-left: 30px;
+.content{
     margin-top: 50px;
+}
+
+.content article{
+    max-width: 40em;
+}
+
+.content h2{
+    margin-bottom: 10px;
+}
+
+.content p{
+    margin-bottom: 30px;
+}
+
+.hovered:hover{
+    background: #27b7bc9a;
+    transition: .5s;
+}
+
+.border{
+    padding: 20px;
+    border: 2px solid white;
     border-radius: 25px;
-    height: 4em;
+    margin: 5px
 }
 
 div.sidebar li{
@@ -106,4 +115,12 @@ div.sidebar li{
     -webkit-align-items: center;
     align-items: center;
     justify-content: center;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.centerTextalign{
+    text-align: center;
 }
