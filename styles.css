@@ -124,3 +124,7 @@ div.sidebar li{
 .centerTextalign{
     text-align: center;
 }
+
+figcaption {
+    color: white;
+}
