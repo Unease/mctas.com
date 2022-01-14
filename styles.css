@@ -87,16 +87,12 @@ article h1 {
     font-size: 3em;
 }
 
-article>h2 {
+article h2 {
     margin: 10px 0;
 }
 
-article>p {
+article p {
     margin-bottom: 30px;
-}
-
-article>h1 {
-    margin-left: 1em;
 }
 
 .hovered:hover {
