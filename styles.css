@@ -95,6 +95,15 @@ article p {
     margin-bottom: 30px;
 }
 
+article ul, article ol{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+article ul li, article ol li{
+    margin-bottom: 5px;
+}
+
 .hovered:hover {
     background: #27b7bc9a;
     transition: .5s;
