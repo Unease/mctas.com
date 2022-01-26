@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch",
+            "url": "${file}"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "Launch LivePreview",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/${fileBasename}"
+        }
+    ]
+}

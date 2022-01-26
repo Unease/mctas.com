@@ -79,16 +79,25 @@ section {
 }
 
 article {
-    margin: 50px;
+    margin: 40px;
     max-width: 43em;
 }
 
 article h1 {
     font-size: 3em;
+    margin-bottom: 15px;
 }
 
-article h2 {
+article h3 img{
+    margin: 0px 4px;
+}
+
+article h2, article h3, article h4 {
     margin: 10px 0;
+}
+
+article h4 {
+    font-style: italic;
 }
 
 article p {
@@ -122,6 +131,10 @@ div.sidebar li {
 
 .inlineBlock {
     display: inline-block;
+}
+
+.inline{
+    display: inline;
 }
 
 .centerTextalign {
