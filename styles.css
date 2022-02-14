@@ -145,6 +145,22 @@ figcaption {
     color: white;
 }
 
+.smallnav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.smallnav ul li{
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.smallnav ul li:before {
+    content: "»";
+    padding: 0 5px;
+  }
 
 /*==============================Footer*/
 
@@ -156,6 +172,6 @@ footer {
     background-color: black;
     width: 100%;
     padding: 10px;
-    position: fixed;
+    position: static;
     bottom: 0;
 }
