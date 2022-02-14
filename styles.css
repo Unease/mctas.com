@@ -163,13 +163,13 @@ figcaption {
 }
 
 .auto-resizable-iframe {
-	max-width: 420px;
+	max-width: 560px;
 	margin: 0px auto;
 }
   
 .auto-resizable-iframe > div {
 	position: relative;
-	padding-bottom: 60%;
+	padding-bottom: 53%;
 	height: 0px;
 }
   
