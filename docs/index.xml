@@ -6,5 +6,26 @@
     <description>Recent content on Minecraft TAS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://minecrafttas.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Non Playback</title>
+      <link>https://minecrafttas.com/tutorials/non-playback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://minecrafttas.com/tutorials/non-playback/</guid>
+      <description>Non-playback TASing The basics Instead of choosing each input per frame and play back the TAS at the end, non-playback TASing is the act of screen recording yourself speedrunning, but setting the game to slow motion.
+Later in video editing, you speed up the footage from slow motion to normal speed.
+The result is a video in normal speed, but the player has better rection times.
+Additionally you may use savestates, which is the ability to create a restore point at any time during your run and if you fail at something, you can reload the savestate to try again.</description>
+    </item>
+    
+    <item>
+      <title>Playback</title>
+      <link>https://minecrafttas.com/tutorials/playback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://minecrafttas.com/tutorials/playback/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

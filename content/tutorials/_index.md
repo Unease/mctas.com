@@ -1,3 +1,7 @@
+---
+title: "Tutorials"
+draft: false
+---
 # Tutorials
 ## Tool-Assisted Speedrunning
 A TAS is a speedrun created or aided by tools that aims to achieve the fastest time possible.  
