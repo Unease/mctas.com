@@ -1,2 +1,3 @@
 .vscode/
 shields/
+.hugo_build.lock

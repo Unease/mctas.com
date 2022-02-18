@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<!-- Btw this is my first real website and I have no idea what I am doing ._. -->
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Minecraft TAS</title>
+	<meta name="description" content="Minecraft Tool-Assisted Speedrunning resources and more!">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/styles.css">
+	<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+</head>
+<body>
+	{{ block "header" .}}
+	<!-- Header -->
+	<header>
+		<a class="logo" href="/"><img src="/images/PotionTitle.svg" alt="potion-title"></a>
+		<nav>
+			<ul>
+				<li><a {{ if .IsHome}} class="active" {{ end }} href="/">Home</a></li>
+				<li><a {{if in .RelPermalink "/tutorials/"}} class="active" {{end}} href="/tutorials/">Tutorials</a></li>
+				<li><a {{if in .RelPermalink "/downloads/"}} class="active" {{end}} href="/downloads/">Downloads</a></li>
+				<li><a {{if in .RelPermalink "/tasbattle/"}} class="active" {{end}} href="https://tasbattle.mgnet.work" target=_blank>TAS-Battle</a></li>
+				<li><a {{if in .RelPermalink "/tas-comp/"}} class="active" {{end}} href="/tas-comp/">TAS-Competition</a></li>
+				<li><a {{if in .RelPermalink "/misc/"}} class="active" {{end}} href="/misc/">Misc.</a></li>
+				<li><a {{if in .RelPermalink "/discords/"}} class="active" {{end}} href="https://discord.gg/jGhNxpd">Discord</a></li>
+			</ul>
+		</nav>
+	</header>
+	{{end}}
+	{{ block "main" .}}
+	{{end}}
+	{{ block "footer" .}}
+	<!-- Footer -->
+	<footer>
+		<p>This website shouldn't use any cookies! ❌🍪❌</p>
+		<p class="centerTextalign"><br>Website contributions by Scribble, Unease and Pancake</p>
+	</footer>
+	{{end}}
+</body>
+</html>

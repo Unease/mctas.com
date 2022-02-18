@@ -1,0 +1,4 @@
+baseURL = 'https://minecrafttas.com'
+languageCode = 'en-us'
+title = 'Minecraft TAS'
+publishDir = "docs"

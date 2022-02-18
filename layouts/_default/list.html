@@ -1,0 +1,20 @@
+{{define "main"}}
+	<!-- Section -->
+	<section>
+		<article>
+			{{.Content}}
+			<!-- Selection -->
+			<div class="centerTextalign">
+				{{ range .Pages }}
+				<a href="{{.URL}}">
+					<figure class="border hovered inlineBlock">
+						<img src="{{.Params.icon}}" alt="{{.Params.alt}}" height="200">
+						<figcaption class="">{{.Title}}</figcaption>
+					</figure>
+				</a>
+				{{ end }}
+			</div>
+		</article>
+	</section>
+
+{{end}}
