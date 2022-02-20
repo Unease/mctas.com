@@ -181,6 +181,29 @@ figcaption {
 	height: 100%;
 }
 
+.contentlist {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.contentlist h1 {
+	margin-bottom: 3px;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.contentlist p {
+	margin-bottom: 0;
+	color: white;
+}
+
+.flexH {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
 /*==============================Footer*/
 
 footer {

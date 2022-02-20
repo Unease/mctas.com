@@ -1,9 +1,23 @@
 {{define "main"}}
-	<!-- Section -->
-	<section>
-		<article>
-			{{.Content}}
-		</article>
-	</section>
+<!-- Section -->
+<section>
+	<article>
+		{{.Content}}
+		<ul class="contentlist">
+			{{ range .Pages }}
+			<a class="" href="{{.URL}}">
+				<li class="border hovered flexH">
+					<img src="{{.Params.icon}}" alt="{{.Params.alt}}" height="50">
+					<div>
+						<h1>{{.Title}}</h1>
+						<p>{{.Params.description}}</p>
+					</div>
+				</li>
+			</a>
+			{{ end }}
+		</ul>
+
+	</article>
+</section>
 
 {{end}}

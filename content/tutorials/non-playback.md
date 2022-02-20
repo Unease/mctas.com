@@ -2,6 +2,7 @@
 title: "Non Playback"
 icon: "/images/SplashPotion.png"
 alt: "Potion"
+description: "General information about non-playback TASes and mods"
 draft: false
 ---
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Minecraft TAS</title>
+    <title>Home</title>
     <link>https://minecrafttas.com/</link>
-    <description>Recent content on Minecraft TAS</description>
+    <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://minecrafttas.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -24,7 +24,8 @@ Additionally you may use savestates, which is the ability to create a restore po
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://minecrafttas.com/tutorials/playback/</guid>
-      <description></description>
+      <description>Playback TASing What are playback TASes? Most TASes that you will see are made using some form of playback using an emulator with an option called movie playback which allows you to directly playback your TASes in real time.
+Playback of these movies require no external tampering (e.g hacks/cheats), to run properly as it is the emulator/console reading a series of inputs from an input file like a player piano.</description>
     </item>
     
   </channel>

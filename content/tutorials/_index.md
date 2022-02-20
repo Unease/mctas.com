@@ -24,19 +24,19 @@ games, played with an emulator.
 *Non-Playback* TASing emerged as an easier to learn alternative, that is less optimized than
 Playback TASing. Plus there is still a lack of tools regarding Playback TASing, so long story short:
 **Start with Non-Playback.** 
-{{<rawhtml>}}
+<!-- {{<rawhtml>}}
 <div class="centerTextalign">
 	<a href="non-playback.html">
 		<figure class="border hovered inlineBlock">
 			<img src="../images/SplashPotion.png" alt="Potion" height="200">
-		<figcaption class="">Non-Playback</figcaption>
+		<figcaption>Non-Playback</figcaption>
 	</figure>
 </a>
 <a href="playback.html">
 	<figure class="border hovered inlineBlock">
 		<img src="../images/Potion.png" alt="Potion" height="200">
-			<figcaption class="">Playback</figcaption>
+			<figcaption>Playback</figcaption>
 		</figure>
 	</a>
 </div>
-{{</rawhtml>}}
+{{</rawhtml>}} -->
