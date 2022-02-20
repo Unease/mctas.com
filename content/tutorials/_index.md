@@ -23,4 +23,20 @@ mouse inputs, and playing them back. This is the type that is usually associated
 games, played with an emulator.  
 *Non-Playback* TASing emerged as an easier to learn alternative, that is less optimized than
 Playback TASing. Plus there is still a lack of tools regarding Playback TASing, so long story short:
-**Start with Non-Playback.**
+**Start with Non-Playback.** 
+{{<rawhtml>}}
+<div class="centerTextalign">
+	<a href="non-playback.html">
+		<figure class="border hovered inlineBlock">
+			<img src="../images/SplashPotion.png" alt="Potion" height="200">
+		<figcaption class="">Non-Playback</figcaption>
+	</figure>
+</a>
+<a href="playback.html">
+	<figure class="border hovered inlineBlock">
+		<img src="../images/Potion.png" alt="Potion" height="200">
+			<figcaption class="">Playback</figcaption>
+		</figure>
+	</a>
+</div>
+{{</rawhtml>}}
