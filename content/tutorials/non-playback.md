@@ -3,10 +3,8 @@ title: "Non Playback"
 icon: "/images/SplashPotion.png"
 alt: "Potion"
 description: "General information about non-playback TASes and mods"
-draft: false
+weight: 11
 ---
-
-# Non-playback TASing
 
 ## The basics
 
@@ -28,7 +26,7 @@ Playback TASing requires way more time and effort than non-playback. Longer TASe
 
 ### 2. The tools for playback are not there yet
 
-Tool development is extremely time consuming, especially with Minecraft mods. Using existing tools like [libTAS](https://tasvideos.org/EmulatorResources/LibTAS) proved to [not work on Minecraft Java Edition](https://github.com/clementgallet/libTAS/issues/47).
+Tool development is extremely time consuming, especially with Minecraft mods. Using existing tools like {{<newtablink libTAS "https://tasvideos.org/EmulatorResources/LibTAS">}} proved to {{<newtablink "not work on Minecraft Java Edition" "https://github.com/clementgallet/libTAS/issues/47">}}.
 
 For that reason we are using Minecraft mods to implement the tools.  
 And writing non-playback tools is also easier than writing playback tools.

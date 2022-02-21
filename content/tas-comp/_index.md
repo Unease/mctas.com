@@ -1,10 +1,9 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "TAS-Competition"
 icon: ""
 alt: ""
-description: "Set a description here"
+description: "Misc stuff"
 ---
-
 # Coming Soon!
 {{<rawhtml>}}
 		<br>

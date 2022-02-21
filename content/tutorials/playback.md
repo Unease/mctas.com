@@ -3,16 +3,14 @@ title: "Playback"
 icon: "/images/Potion.png"
 alt: "Potion"
 description: "General information about playback TASes and mods"
-draft: false
+weight: 12
 ---
-
-# Playback TASing
 
 ## What are playback TASes?
 
-Most TASes that you will see are made using some form of playback using an [emulator](https://en.wikipedia.org/wiki/Emulator) with an option called movie playback which allows you to directly playback your TASes in _real time_.
+Most TASes that you will see are made using some form of playback using an {{< newtablink "emulator" "https://en.wikipedia.org/wiki/Emulator">}} with an option called movie playback which allows you to directly playback your TASes in _real time_.
 
-Playback of these movies require no external tampering (e.g hacks/cheats), to run properly as it is the emulator/console reading a series of inputs from an input file like a [player piano](https://www.youtube.com/watch?v=aseMAEctM1s&t=15s).
+Playback of these movies require no external tampering (e.g hacks/cheats), to run properly as it is the emulator/console reading a series of inputs from an input file like a {{<newtablink "player piano" "https://www.youtube.com/watch?v=aseMAEctM1s&t=15s">}}.
 
 ## What are the benefits of playback TASing?
 
@@ -22,7 +20,7 @@ Non-playback TASes are unable to modify any inputs in specific sections without 
 
 ### 2. Easy to share and verify
 
-Inputs when using playback are stored using an input file so it's easy to share progress or certain strats with others due to the fact you can easily send over an input file. Others can also check out why certain events happen more easily during playback compared to non-playback and verify if the TAS is replicable. This is how many TASes are [console-verified](https://youtu.be/vbjhjIwgJoY).
+Inputs when using playback are stored using an input file so it's easy to share progress or certain strats with others due to the fact you can easily send over an input file. Others can also check out why certain events happen more easily during playback compared to non-playback and verify if the TAS is replicable. This is how many TASes are {{<newtablink "console-verified" "https://youtu.be/vbjhjIwgJoY">}}.
 
 ### 3. Brute forcing
 
@@ -31,7 +29,7 @@ You can use other tools to help you such as scripts to automate certain parts of
 
 ## Downsides
 
-*   As mentioned in [non-playback](non-playback.html), our current tools for playback are not ready (at least for newer versions), so there are many bugs you may expierence while trying to make a playback TAS.
+*   As mentioned in [non-playback]({{<relref "non-playback">}}), our current tools for playback are not ready (at least for newer versions), so there are many bugs you may expierence while trying to make a playback TAS.
 
 *   Hard to manipulate RNG or certain events in Minecraft. This is a problem since Minecraft is *heavily* RNG dependant so this will lead to a lot of desyncs.
 

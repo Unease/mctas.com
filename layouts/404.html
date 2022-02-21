@@ -1,12 +1,8 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-icon: ""
-alt: ""
-description: "Set a description here"
----
-
-# Coming Soon!
-{{<rawhtml>}}
+{{define "main"}}
+<section>
+	<article>
+		<h1>404</h1>
+		<h2>This page doesn't exist :(</h2>
 		<br>
 		<br>
 		<br>
@@ -40,4 +36,6 @@ description: "Set a description here"
 		<br>
 		<br>
 		<br>
-{{</rawhtml>}}
+	</article>
+</section>
+{{end}}

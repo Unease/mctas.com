@@ -1,16 +1,16 @@
 ---
 title: "Tutorials"
 draft: false
+weight: 10
 ---
-# Tutorials
 ## Tool-Assisted Speedrunning
 A TAS is a speedrun created or aided by tools that aims to achieve the fastest time possible.  
 This works by recording or manually entering inputs that get sent to the emulated game on playback.  
 This is similar to playing a piano, you can play it by yourself and may make mistakes, while a 
-[player piano](https://www.youtube.com/watch?v=aseMAEctM1s&t=15s) can play perfectly every time.
+{{<newtablink "player piano" "https://www.youtube.com/watch?v=aseMAEctM1s&t=15s">}} can play perfectly every time.
 Note that TASes are not created to compete against real-time runners and thus are not accepted on real-time speedrun leaderboards. 
-The main hub for TASes is [TASVideos.org](https://tasvideos.org) where you can also find more tools for other games.  
-The tools range from slowdown/frame advance to savestates and RAM-watch. An explaination in video form can also be found [here](https://www.youtube.com/watch?v=Ietk1-Wb7oY).
+The main hub for TASes is {{<newtablink "TASVideos.org" "https://tasvideos.org">}} where you can also find more tools for other games.  
+The tools range from slowdown/frame advance to savestates and RAM-watch. An explaination in video form can also be found {{<newtablink "here" "https://www.youtube.com/watch?v=Ietk1-Wb7oY">}}.
 
 ## *Minecraft* Tool-Assisted Speedrunning
 Minecraft Java Edition is different to the usual games that are TASed, since it is not running on a

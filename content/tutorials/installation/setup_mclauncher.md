@@ -1,10 +1,9 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Setup with Minecraft Launcher"
 icon: ""
 alt: ""
-description: "Set a description here"
+description: "Setup mods with the vanilla minecraft launcher"
 ---
-
 # Coming Soon!
 {{<rawhtml>}}
 		<br>

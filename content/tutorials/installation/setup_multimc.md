@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Setup with MultiMC"
 icon: ""
 alt: ""
 description: "Set a description here"

@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Misc"
 icon: ""
 alt: ""
-description: "Set a description here"
+description: "Misc stuff"
 ---
 
 # Coming Soon!
