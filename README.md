@@ -1,5 +1,6 @@
 The sourcecode for https://minecrafttas.com
 
+A completely custom theme that I would not recommend to copy...
 ## Installation
 1. Download [Hugo](https://github.com/gohugoio/hugo/releases)
 2. Put it in the mctas.com folder
@@ -20,4 +21,4 @@ To add html to your markdown simply encase the tags with `{{<rawhtml>}}`
 ```
 
 ## Generating
-Running `hugo` will generate the files in the `docs/` directory, which is named that way to allow github pages to work, since you can't enter a custom name for your subdirectory -.-
+Running `hugo` will generate the html files in the `public/` directory
