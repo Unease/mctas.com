@@ -34,9 +34,9 @@ A non-playback mod for version 1.8.9-1.18.1
 <a href="https://github.com/MCPfannkuchenYT/LoTAS/releases"><img class="inlineBlock border hovered"
 		src="/images/DownloadButton.svg" height="80" alt="Download Button"></a>
 <a href="https://github.com/MCPfannkuchenYT/LoTAS"><img class="inlineBlock border hovered"
-		src="/images/GitHub-Mark.svg" height="80" alt="GitHub logo"></a>
+		src="/images/Github-Mark.svg" height="80" alt="GitHub logo"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/lotas"><img class="inlineBlock border hovered"
-		src="/images/Curseforge.svg" height="80" alt="Curseforge"></a>
+		src="/images/CurseForge.svg" height="80" alt="Curseforge"></a>
 {{</rawhtml>}}
 
 ## Playback
@@ -56,9 +56,9 @@ The main playbock mod, currently only for version 1.12.2
 <a href="https://github.com/ScribbleLP/TASmod/releases"><img class="inlineBlock border hovered"
 		src="/images/DownloadButton.svg" height="80" alt="Download Button"></a>
 <a href="https://github.com/ScribbleLP/TASmod/"><img class="inlineBlock border hovered"
-		src="/images/GitHub-Mark.svg" height="80" alt="GitHub logo"></a>
+		src="/images/Github-Mark.svg" height="80" alt="GitHub logo"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/tasmod"><img class="inlineBlock border hovered"
-		src="/images/Curseforge.svg" height="80" alt="Curseforge"></a>
+		src="/images/CurseForge.svg" height="80" alt="Curseforge"></a>
 {{</rawhtml>}}
 
 ### TASmod-OG
@@ -66,5 +66,5 @@ Experimental TASmod version for MC version 1.0
 
 {{<rawhtml>}}
 <a href="https://github.com/MCPfannkuchenYT/TASmod-OG"><img class="inlineBlock border hovered"
-		src="/images/GitHub-Mark.svg" height="80" alt="GitHub logo"></a>
+		src="/images/Github-Mark.svg" height="80" alt="GitHub logo"></a>
 {{</rawhtml>}}
