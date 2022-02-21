@@ -1,4 +1,3 @@
 baseURL = 'https://minecrafttas.com'
 languageCode = 'en-us'
 title = 'Home'
-publishDir = "docs"
