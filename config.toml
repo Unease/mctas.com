@@ -1,3 +1,5 @@
 baseURL = 'https://minecrafttas.com'
 languageCode = 'en-us'
 title = 'Home'
+[params]
+	description = "Minecraft Tool-Assisted Speedrunning resources and more!"

@@ -1,3 +1,4 @@
 .vscode/
 shields/
 .hugo_build.lock
+public/
