@@ -82,6 +82,11 @@ article {
 	max-width: 43em;
 }
 
+article .screenshot img {
+	width: 100%;
+	height: auto;
+}
+
 article h1 {
 	font-size: 3em;
 	margin-bottom: 15px;
@@ -118,6 +123,27 @@ article ul, article ol{
 
 article ul li, article ol li{
 	margin-bottom: 5px;
+}
+
+article code {
+	background-color: #272822;
+	padding: 5px;
+	border-radius: 6px;
+}
+
+article .highlight code {
+	background-color: inherit;
+	padding: inherit;
+	border-radius: inherit;
+}
+
+article .highlight>pre{
+	padding: 16px;
+	line-height: 1.45;
+	border-radius: 6px;
+}
+article .highlight>pre>code{
+	padding: 0;
 }
 
 .hovered:hover {

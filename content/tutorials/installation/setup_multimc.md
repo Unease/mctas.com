@@ -2,7 +2,7 @@
 title: "Setup with MultiMC"
 icon: ""
 alt: ""
-description: "Set a description here"
+description: "WIP"
 ---
 
 # Coming Soon!

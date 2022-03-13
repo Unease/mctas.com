@@ -43,7 +43,7 @@ A non-playback mod for version 1.8.9-1.18.1
 
 ### TASmod
 
-The main playbock mod, currently only for version 1.12.2
+The main playback mod, currently only for version 1.12.2
 
 #### Features
 
