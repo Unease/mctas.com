@@ -2,7 +2,7 @@
 title: "Misc"
 icon: ""
 alt: ""
-description: "Misc stuff"
+description: "Miscellaneous topics and resources"
 ---
 
 # Coming Soon!

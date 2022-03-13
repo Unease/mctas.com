@@ -2,7 +2,7 @@
 title: "Downloads"
 icon: "/images/Potion.png"
 alt: "Potion"
-description: "Set a description here"
+description: "Download page for all sorts of mods"
 ---
 
 ## Important!

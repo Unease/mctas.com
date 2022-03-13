@@ -2,7 +2,7 @@
 title: "TAS-Competition"
 icon: ""
 alt: ""
-description: "Misc stuff"
+description: "Information about the Minecraft TAS-Competition"
 ---
 # Coming Soon!
 {{<rawhtml>}}

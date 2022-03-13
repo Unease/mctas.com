@@ -2,6 +2,7 @@
 title: "Tutorials"
 draft: false
 weight: 10
+description: "Tutorials about Minecraft TASing"
 ---
 ## Tool-Assisted Speedrunning
 A TAS is a speedrun created or aided by tools that aims to achieve the fastest time possible.  
