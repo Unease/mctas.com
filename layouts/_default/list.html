@@ -1,0 +1,28 @@
+{{define "main"}}
+<!-- Section -->
+<section>
+	<article>
+		{{ partial "smallnav.html" . }}
+		<h1>{{.Title}}</h1>
+		{{.Content}}
+		<ul class="contentlist">
+			{{ range .Pages.ByWeight }}
+			<a class="" href="{{.RelPermalink}}">
+				<li class="border hovered flexH">
+					{{ if not (eq .Params.icon "")}}
+					<img src="{{.Params.icon}}" alt="{{.Params.alt}}" height="50">
+					{{else}}
+					{{ end }}
+					<div>
+						<h1>{{.Title}}</h1>
+						<p>{{.Params.description}}</p>
+					</div>
+				</li>
+			</a>
+			{{ end }}
+		</ul>
+
+	</article>
+</section>
+
+{{end}}
