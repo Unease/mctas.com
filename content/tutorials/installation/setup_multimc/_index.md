@@ -2,7 +2,7 @@
 title: "Setup with MultiMC"
 icon: ""
 alt: ""
-description: "Tutorial on how to install mods with MultiMC"
+description: "Setup mods with the vanilla Minecraft launcher"
 ---
 
 # Coming Soon!
