@@ -1,8 +1,8 @@
 ---
 title: "Setup with Minecraft Launcher"
-icon: ""
-alt: ""
-description: "Setup mods with the vanilla minecraft launcher"
+icon: "/icons/Launcher.png"
+alt: "Minecraft Launcher icon"
+description: "Setup mods with the vanilla Minecraft launcher"
 ---
 ## MC version 1.14+
 We use the fabric modloader for mods in 1.14+
