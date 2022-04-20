@@ -21,6 +21,12 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.4.9
+        with:
+          source: scss/main.scss
+          destination: static/styles.css
+
       - name: Build
         run: hugo --minify
 
