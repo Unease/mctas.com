@@ -10,12 +10,14 @@
 		<title>MinecraftTAS.com</title>
 		<meta name="description" content="{{.Site.Params.description}}">
 
+		<meta property="og:title" content="MinecraftTAS.com">
 		<meta property="og:image" content="/images/PotionTrim.png">
 		<meta property="og:description" content="{{.Site.Params.description}}">
 	{{ else }}
 		<title>{{.Title}}</title>
 		<meta name="description" content="{{.Description}}">
 
+		<meta property="og:title" content="{{.Title}}">
 		<meta property="og:description" content="{{.Description}}">
 		<meta property="og:image" content="{{.Params.icon}}">
 	{{ end }}
