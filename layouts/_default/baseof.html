@@ -11,15 +11,19 @@
 		<meta name="description" content="{{.Site.Params.description}}">
 
 		<meta property="og:title" content="MinecraftTAS.com">
-		<meta property="og:image" content="/images/PotionTrim.png">
+		<meta property="og:image" content="/icons/PotionIcon.png">
 		<meta property="og:description" content="{{.Site.Params.description}}">
 	{{ else }}
 		<title>{{.Title}}</title>
 		<meta name="description" content="{{.Description}}">
 
 		<meta property="og:title" content="{{.Title}}">
+		{{ if (isset . .Params.icon) }}
+			<meta property="og:image" content="{{.Params.icon}}">
+		{{ else }}
+			<meta property="og:image" content="/icons/PotionIcon.png">
+		{{ end }}
 		<meta property="og:description" content="{{.Description}}">
-		<meta property="og:image" content="{{.Params.icon}}">
 	{{ end }}
 	<meta name="keywords" content="Minecraft, TAS, Tool-Assisted Speedrun, Modifikation, Playback, Non-Playback" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
