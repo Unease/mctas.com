@@ -18,48 +18,58 @@
 		<meta name="description" content="{{.Description}}">
 
 		<meta property="og:title" content="{{.Title}}">
-		{{ if (isset . .Params.icon) }}
+		{{ if (isset .Params "icon") }}
 			<meta property="og:image" content="{{.Params.icon}}">
 		{{ else }}
 			<meta property="og:image" content="/icons/PotionIcon.png">
 		{{ end }}
 		<meta property="og:description" content="{{.Description}}">
+
 	{{ end }}
 	<meta name="keywords" content="Minecraft, TAS, Tool-Assisted Speedrun, Modifikation, Playback, Non-Playback" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{ block "style" .}}
 	<link rel="stylesheet" href="/styles.css">
 	<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+	{{ end }}
 
 	<meta property="og:type" content="Website">
 	<meta property="og:url" content="https://minecrafttas.com">
 	<meta property="og:site_name" content="MinecraftTAS.com">
 </head>
 <body>
-	{{ block "header" .}}
-	<!-- Header -->
-	<header>
-		<a class="logo" href="/"><img src="/images/PotionTitle.svg" alt="potion-title"></a>
-		<nav>
-			<ul>
-				<li><a {{ if .IsHome}} class="active" {{ end }} href="/">Home</a></li>
-				<li><a {{if in .RelPermalink "/tutorials/"}} class="active" {{end}} href="/tutorials/">Tutorials</a></li>
-				<li><a {{if in .RelPermalink "/downloads/"}} class="active" {{end}} href="/downloads/">Downloads</a></li>
-				<li><a {{if in .RelPermalink "/tasbattle/"}} class="active" {{end}} href="https://tasbattle.mgnet.work" target=_blank>TAS-Battle</a></li>
-				<li><a {{if in .RelPermalink "/tas-comp/"}} class="active" {{end}} href="/tas-comp/">TAS-Competition</a></li>
-				<li><a {{if in .RelPermalink "/misc/"}} class="active" {{end}} href="/misc/">Misc.</a></li>
-				<li><a {{if in .RelPermalink "/discords/"}} class="active" {{end}} href="https://discord.gg/jGhNxpd">Discord</a></li>
-			</ul>
-		</nav>
-	</header>
-	{{end}}
-	{{ block "main" .}}
-	{{end}}
-	{{ block "footer" .}}
-	<!-- Footer -->
-	<footer>
-		<p>This website shouldn't use any cookies! ❌🍪❌</p>
-		<p class="centerTextalign"><br>Website contributions by Scribble, Unease and Pancake</p>
-	</footer>
-	{{end}}
+	<div class="flex-wrapper">
+		{{ block "header" .}}
+		<!-- Header -->
+		<header>
+			<a class="logo" href="/"><img src="/images/PotionTitle.svg" alt="potion-title"></a>
+			<nav>
+				<ul>
+					<li><a {{ if .IsHome}} class="active" {{ end }} href="/">Home</a></li>
+					<li><a {{if in .RelPermalink "/tutorials/" }} class="active" {{end}} href="/tutorials/">Tutorials</a>
+					</li>
+					<li><a {{if in .RelPermalink "/downloads/" }} class="active" {{end}} href="/downloads/">Downloads</a>
+					</li>
+					<li><a {{if in .RelPermalink "/tasbattle/" }} class="active" {{end}} href="https://tasbattle.mgnet.work"
+							target=_blank>TAS-Battle</a></li>
+					<li><a {{if in .RelPermalink "/tas-comp/" }} class="active" {{end}}
+							href="/tas-comp/">TAS-Competition</a></li>
+					<li><a {{if in .RelPermalink "/misc/" }} class="active" {{end}} href="/misc/">Misc.</a></li>
+					<li><a {{if in .RelPermalink "/discords/" }} class="active" {{end}}
+							href="https://discord.gg/jGhNxpd">Discord</a></li>
+				</ul>
+			</nav>
+		</header>
+		{{end}}
+		{{ block "main" .}}
+		{{end}}
+		{{ block "footer" .}}
+		<!-- Footer -->
+		<footer>
+			<p>This website shouldn't use any cookies! ❌🍪❌</p>
+			<p class="centerTextalign"><br>Website contributions by Scribble, Unease and Pancake</p>
+		</footer>
+		{{end}}
+	</div>
 </body>
 </html>

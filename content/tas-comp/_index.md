@@ -3,40 +3,6 @@ title: "TAS-Competition"
 icon: ""
 alt: ""
 description: "Information about the Minecraft TAS-Competition"
+weight: 
 ---
-# Coming Soon!
-{{<rawhtml>}}
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-{{</rawhtml>}}
+## No tasks are active right now. Join the discord to be notified for the next TAS!

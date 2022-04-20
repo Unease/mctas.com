@@ -25,7 +25,7 @@ p {
 	line-height: 1.35em;
 }
 
-/*==============================Navbar*/
+/*==============================Header*/
 
 header {
 	grid-area: header;
@@ -43,6 +43,8 @@ header {
 	height: auto;
 	margin-right: 30px;
 }
+
+/*==============================Navbar*/
 
 nav {
 	ul {
@@ -124,11 +126,11 @@ section {
 	
 			li{
 				margin-bottom: 10px;
-	
-				::marker{
-					font-size: 1.2em;
-					color: goldenrod;
-				}
+			}
+
+			li::marker{
+				font-size: 1.2em;
+				color: goldenrod;
 			}
 		}
 	
@@ -156,6 +158,8 @@ section {
 		}
 	}
 }
+
+/*==============================Classes*/
 
 .hovered:hover {
 	background: #27b7bc9a;
@@ -198,11 +202,10 @@ figcaption {
 			padding-left: 1em;
 			text-indent: -1em;
 			margin-bottom: 10px;
-
-			:before {
-				content: "»";
-				padding: 0 5px;
-			}
+		}
+		li::before {
+			content: "»";
+			padding: 0 5px;
 		}
 	}
 
@@ -253,6 +256,13 @@ figcaption {
 	padding-right: 10px;
 }
 
+.flex-wrapper {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
 /*==============================Footer*/
 
 footer {
@@ -265,4 +275,5 @@ footer {
 	padding: 10px;
 	position: static;
 	bottom: 0;
+	margin-top: auto;
 }
