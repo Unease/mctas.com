@@ -27,6 +27,7 @@ jobs:
           source: scss/main.scss
           destination: static/styles.css
           sourceMap: string
+          outFile: static/styles.css.map
 
       - name: Build
         run: hugo --minify
