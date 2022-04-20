@@ -1,11 +1,10 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-icon: ""
-alt: ""
-description: "Set a description here"
-weight: 0
+title: "Java Setup"
+icon: "/icons/Java.png"
+alt: "Java Icon"
+description: "Advanced installation guide for Java 8,16,17; JRE and JDK"
+weight: 16
 ---
-
 # Coming Soon!
 {{<rawhtml>}}
 		<br>
