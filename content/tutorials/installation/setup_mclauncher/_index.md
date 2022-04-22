@@ -37,12 +37,10 @@ In this, we will install it for MC Version 1.12.2
 {{<figure class="screenshot" src="chrome_BHFDr3kiIf.png">}}
 2. A website with ads will open. **Don't click any of them**. The correct button is labeled "Skip" and is in the **top right**. It will show up after 5 seconds  
 {{<figure class="screenshot" src="chrome_IjG9ESvhLu.png">}}
-3. If you can't open the downloaded file, you need to download and install [Java](https://java.com/en/download/manual.jsp) first. The correct version is "Windows Offline (64-bit)"
-{{<figure class="screenshot" src="chrome_qtspYxO7iz.png">}}
-(For alternative downloads check {{<newtablink "Java Setup" "/tutorials/installation/setup_java/">}}))
-4. Run the installer. Everything should be correctly set up, so just click "Ok"
+3. Run the installer. Everything should be correctly set up, so just click "Ok"  
+   * *Optional*: If you can't open the downloaded file, the you need to install Java. A guide to that can be found {{<newtablink "here" "/tutorials/installation/setup_java/">}}"
 {{<figure class="screenshot" src="desktop_vIpTz4PJyt.png">}}
-5. Open your Minecraft launcher, a new profile should've been added to the dropdown menu
+1. Open your Minecraft launcher, a new profile should've been added to the dropdown menu
 {{<figure class="screenshot" src="Minecraft_XfldEqbGXi.png">}}
 
 ### Installing Forge mods
