@@ -7,10 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	{{ if .IsHome }}
-		<title>MinecraftTAS.com</title>
+		<title>MinecraftTAS</title>
 		<meta name="description" content="{{.Site.Params.description}}">
 
-		<meta property="og:title" content="MinecraftTAS.com">
+		<meta property="og:title" content="MinecraftTAS">
 		<meta property="og:image" content="/icons/PotionIcon.png">
 		<meta property="og:description" content="{{.Site.Params.description}}">
 	{{ else }}
@@ -29,20 +29,22 @@
 	<meta name="keywords" content="Minecraft, TAS, Tool-Assisted Speedrun, Modifikation, Playback, Non-Playback" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ block "style" .}}
-	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="/blue.css">
 	<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+	<meta name="theme-color" content="#546980">
 	{{ end }}
 
 	<meta property="og:type" content="Website">
 	<meta property="og:url" content="https://minecrafttas.com">
-	<meta property="og:site_name" content="MinecraftTAS.com">
+	<meta property="og:site_name" content="MinecraftTAS">
 </head>
 <body>
 	<div class="flex-wrapper">
-		{{ block "header" .}}
 		<!-- Header -->
 		<header>
-			<a class="logo" href="/"><img src="/images/PotionTitle.svg" alt="potion-title"></a>
+			{{block "logo" .}}
+			<a class="logo" href="/"><img src="/images/title/PotionTitle.svg" alt="potion-title"></a>
+			{{end}}
 			<nav>
 				<ul>
 					<li><a {{ if .IsHome}} class="active" {{ end }} href="/">Home</a></li>
@@ -60,7 +62,6 @@
 				</ul>
 			</nav>
 		</header>
-		{{end}}
 		{{ block "main" .}}
 		{{end}}
 		{{ block "footer" .}}

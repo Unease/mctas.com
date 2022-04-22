@@ -24,8 +24,12 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.4.9
         with:
-          source: scss/main.scss
-          destination: static/styles.css
+          source: |
+            scss/main_blue.scss
+            scss/main_green.scss
+          destination: |
+            static/blue.css
+            static/green.css
 
       - name: Build
         run: hugo --minify
