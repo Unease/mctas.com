@@ -1,5 +1,5 @@
 ---
-title: "TAS-Comp"
+title: "TAS-Competition"
 icon: ""
 alt: ""
 description: "Information about the Minecraft TAS-Competition"
