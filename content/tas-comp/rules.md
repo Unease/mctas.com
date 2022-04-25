@@ -1,6 +1,5 @@
 ---
 title: "Rules"
-icon: ""
 alt: ""
 description: "The rules of the Minecraft TAS-Competition"
 weight: 1

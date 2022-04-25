@@ -1,6 +1,6 @@
 ---
 title: "TASmod"
-icon: ""
+
 alt: ""
 description: "The main playback mod, currently only for version 1.12.2"
 weight: 0

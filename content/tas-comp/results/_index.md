@@ -1,6 +1,6 @@
 ---
 title: "Hall of Fame"
-icon: ""
+
 alt: ""
 description: "Past TAS-Competition results!"
 weight: 2

@@ -1,6 +1,6 @@
 ---
 title: "Task 4"
-icon: ""
+
 alt: ""
 description: "Burnout% SSGP (1.12.2)"
 weight: 4

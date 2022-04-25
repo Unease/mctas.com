@@ -1,6 +1,6 @@
 ---
 title: "TASmod-OG"
-icon: ""
+
 alt: ""
 description: "Experimental TASmod version for MC version 1.0"
 weight: 0

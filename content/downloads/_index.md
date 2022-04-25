@@ -1,6 +1,5 @@
 ---
 title: "Downloads"
-icon: "/images/Potion.png"
 alt: "Potion"
 description: "Download page for all sorts of mods"
 ---

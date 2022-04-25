@@ -1,6 +1,5 @@
 ---
 title: "TAS Battle"
-icon: ""
 alt: ""
 description: "Information about Minecraft TAS Battles"
 weight: 6

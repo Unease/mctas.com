@@ -1,8 +1,7 @@
 ---
-title: "TAS-Competition"
-icon: ""
+title: "TAS Competition"
 alt: ""
-description: "Information about the Minecraft TAS-Competition"
+description: "Information about the Minecraft TAS Competition"
 weight: 5
 ---
 In this competition, you can put your TASing skills to the test. 
