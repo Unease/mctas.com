@@ -7,7 +7,7 @@ A completely custom theme that I would not recommend to copy...
 2. Put it in the mctas.com folder
 3. Install sass via npm `npm install sass`
 4. Open a command line and run `hugo server`
-5. Compile the css via `sass --watch scss/main_blue.scss:static/blue.css scss/main_green.scss:static/green.css`
+5. Compile the css via `sass --watch scss/main_blue.scss:static/blue.css scss/main_green.scss:static/green.css scss/main_red.scss:static/red.css`
 6. Open `http://localhost:1313/`
 
 ## Contributing

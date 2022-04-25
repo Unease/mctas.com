@@ -10,10 +10,10 @@ By the time of writing this, Minecraft 1.18.2 is the latest version and the late
   
 Some things to point out:
 * The java requirements are:
-  * Minecraft up to 1.12.2 requires Java 8, but Java 11 still works.  
-  * Minecraft 1.14.4-1.16.5 require at least Java 11, but Java 17 still works
-  * Minecraft 1.17-1.17.1 require at least Java 16, but Java 17 still works
-  * Minecraft 1.18+ require at least Java 17
+  * Minecraft up to 1.12.2 requires Java 8.  
+  * Minecraft 1.14.4-1.16.5 require at least Java 8.
+  * Minecraft 1.17-1.17.1 require at least Java 16, but Java 17 still works.
+  * Minecraft 1.18+ require at least Java 17.
 * You will sometimes see 2 Java versions that you can install:
   * The Java Runtime Environment (JRE), which is needed to run MC
   * The Java Development Kit (JDK), which already includes the JRE

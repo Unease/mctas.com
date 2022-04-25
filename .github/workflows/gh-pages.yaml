@@ -27,9 +27,11 @@ jobs:
           source: |
             scss/main_blue.scss
             scss/main_green.scss
+            scss/main_red.scss
           destination: |
             static/blue.css
             static/green.css
+            static/red.css
 
       - name: Build
         run: hugo --minify
