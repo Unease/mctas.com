@@ -15,14 +15,15 @@ Some things to point out:
   * Minecraft 1.17-1.17.1 require at least Java 16, but Java 17 still works.
   * Minecraft 1.18+ require at least Java 17.
 * You will sometimes see 2 Java versions that you can install:
-  * The Java Runtime Environment (JRE), which is needed to run MC
+  * The Java Runtime Environment (JRE), which is an obsolete "slim" version of java for basic java programs.
   * The Java Development Kit (JDK), which already includes the JRE
-  * The JRE has a smaller file size than the JDK
   * The JDK is used to write java programs and Minecarft mods
 * We will use the java binaries of {{<newtablink "Adoptium.net" "https://adoptium.net" >}}. If you think this is wrong and we should use something else, message us on discord.
 
+**You should always choose the JDK rather than JRE, since it is required by some mods!**
+
 ## Installation
-For this tutorial, we will install Java 8 and Java 17 JDK. Both are versy similar to install
+For this tutorial, we will install Java 8 and Java 17 JDK. Both are very similar to install
 
 1. Go to {{<newtablink "Adoptium.net" "https://adoptium.net/de/temurin/archive" >}}
 2. Choose the version you want to install. We will go with 17 for now
