@@ -45,7 +45,7 @@ In this, we will install it for MC Version 1.12.2
 
 ### Installing Forge mods
 1. Download the mods you want. If you are here for Tool Assisted Speedrunning, you can head to {{<newtablink "downloads" "/downloads/">}}).   
-**All mods have to match the Minecraft version you want to play in. Mods for 1.11 don't work on 1.12!**
+**All mods have to match the Minecraft version you want to play in, unless the mod author says something different. Mods for 1.11 don't work on 1.12!**
 2. Go to the `.minecraft/` directory
 3. Put the .jar files in the `mods/` folder. If there is no folder, create one and name it `mods/`
 4. **You can't mix Fabric and Forge mods! Remove all Fabric mods from the mods folder!**
