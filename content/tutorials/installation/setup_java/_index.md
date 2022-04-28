@@ -17,7 +17,7 @@ Some things to point out:
 * You will sometimes see 2 Java versions that you can install:
   * The Java Runtime Environment (JRE), which is an obsolete "slim" version of java for basic java programs.
   * The Java Development Kit (JDK), which already includes the JRE
-  * The JDK is used to write java programs and Minecarft mods
+  * The JDK is used to write java programs and Minecraft mods
 * We will use the java binaries of {{<newtablink "Adoptium.net" "https://adoptium.net" >}}. If you think this is wrong and we should use something else, message us on discord.
 
 **You should always choose the JDK rather than JRE, since it is required by some mods!**

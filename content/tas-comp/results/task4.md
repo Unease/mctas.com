@@ -48,47 +48,47 @@ Result video:
 {{<youtube "dCwWVVPoG_U">}}  
 {{<spoiler "Placements (Click to open)">}}
 1st: Mark Lukas, 01:16.24  
-[Youtube](https://youtu.be/OJ7QQFTyUpc)  
+[YouTube](https://youtu.be/OJ7QQFTyUpc)  
   
 Joint 2nd: AndrefPL & Curcuit, 01:21.20 & 01:21.21  
-[Youtube (AndrefPL)](https://www.youtube.com/watch?v=wCd3DUUFipE)  
-[Youtube (Curcuit)](https://www.youtube.com/watch?v=uja5ew8Esn0)  
+[YouTube (AndrefPL)](https://www.youtube.com/watch?v=wCd3DUUFipE)  
+[YouTube (Curcuit)](https://www.youtube.com/watch?v=uja5ew8Esn0)  
   
 4th: DylanDC14, 01:25.01  
-[Youtube](https://www.youtube.com/watch?v=cYHWPURqudc)
+[YouTube](https://www.youtube.com/watch?v=cYHWPURqudc)
   
 5th: 100pxx, 01:27.23  
-[Youtube](https://youtu.be/hc17qMhSY2Q)
+[YouTube](https://youtu.be/hc17qMhSY2Q)
   
 6th: MaG_NITud3, 01:31.23  
-[Youtube](https://www.youtube.com/watch?v=G0VCd7BQDps)
+[YouTube](https://www.youtube.com/watch?v=G0VCd7BQDps)
   
 7th: Ltick-Tets, 01:32.57  
-[Youtube](https://youtu.be/nb7g3q1CE2o)
+[YouTube](https://youtu.be/nb7g3q1CE2o)
   
 8th: Unease, 01:35.25  
-[Youtube](https://youtu.be/GjARx3BzVnQ )
+[YouTube](https://youtu.be/GjARx3BzVnQ )
   
 9th: Scribble, 01:44.58  
-[Youtube](https://www.youtube.com/watch?v=3Tk6WaigTQk)
+[YouTube](https://www.youtube.com/watch?v=3Tk6WaigTQk)
   
 10th: Lud, 01:45.41  
-It's a google drive link... maybe they will upload it to youtube...  
+It's a google drive link... maybe they will upload it to YouTube...  
   
 11th: john0716, 01:49.51  
-[Youtube](https://youtu.be/w0qEKk2N_qA)
+[YouTube](https://youtu.be/w0qEKk2N_qA)
   
 12th: Soulbestian, 01:51.37  
-[Youtube](https://www.youtube.com/watch?v=q-d408qw_Jo)
+[YouTube](https://www.youtube.com/watch?v=q-d408qw_Jo)
   
 13th: _Typical, 02:22.57  
-[Youtube](https://www.youtube.com/watch?v=yuqIjC9Sxws)
+[YouTube](https://www.youtube.com/watch?v=yuqIjC9Sxws)
   
 14th: FoxOnTop, 02:33.35  
-[Youtube](https://youtu.be/je322B7LKiM)
+[YouTube](https://youtu.be/je322B7LKiM)
   
 15th: bit, 03:22.24  
-[Youtube](https://youtu.be/K0QDUbJImMU)
+[YouTube](https://youtu.be/K0QDUbJImMU)
 
 Pancake                          01:36.38 (Invalid: Wrong start location)  
 Dumpstertree               01:38.04 (Invalid: Additional mods, wrong start location)  
@@ -97,12 +97,12 @@ Retro_Dev                      02:27.35 (Invalid: Wasn't played in glitchless mo
   
 Meme runs:  
 Unease:  
-[Youtube](https://youtu.be/GjARx3BzVnQ)  
+[YouTube](https://youtu.be/GjARx3BzVnQ)  
 Pancake:  
-[Youtube](https://www.youtube.com/watch?v=0ZQp23AEaNw)  
+[YouTube](https://www.youtube.com/watch?v=0ZQp23AEaNw)  
 Mark Lukas:  
-[Youtube](https://youtu.be/DQWc9W1K8k4)  
+[YouTube](https://youtu.be/DQWc9W1K8k4)  
   
 Pancakes redemption since his submission got invalidated  
-[Youtube](https://youtu.be/i0lKFKtUGps )
+[YouTube](https://youtu.be/i0lKFKtUGps )
 {{</spoiler>}}

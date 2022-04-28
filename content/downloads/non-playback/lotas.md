@@ -15,7 +15,7 @@ A non-playback mod for version 1.8.9-1.18.1
 *   Item duplication (Duping)
 *   Savestates
 *   Drop Manipulation
-*   Dragon Manipuation
+*   Dragon Manipulation
 *   Spawn Manipulation
 *   Ingame timer
 *   And more!

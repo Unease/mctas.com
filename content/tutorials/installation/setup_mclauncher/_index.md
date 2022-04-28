@@ -15,7 +15,7 @@ We use the Fabric modloader for mods in 1.14+
 2. Run the installer
 3. A window should appear
 {{<figure class="screenshot" src="javaw_3wDzbdLJaS.png">}}
-4. Here you can select your minecraft version as well as the `Loader Version`. The Loader should always be set to the newest version, some bugs may occur on old versions. `Create Profile` will automatically create a new profile in your Minecraft launcher.
+4. Here you can select your Minecraft version as well as the `Loader Version`. The Loader should always be set to the newest version, some bugs may occur on old versions. `Create Profile` will automatically create a new profile in your Minecraft launcher.
 5. Open your Minecraft launcher, a new profile should've been added to the dropdown menu
 {{<figure class="screenshot" src="Minecraft_j4svmjk50e.png">}}
 
@@ -35,7 +35,7 @@ In this, we will install it for MC Version 1.12.2
 ### Installing Forge
 1. Download the installer from {{<newtablink "MinecraftForge" "https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html">}}. (**Only download from this website!**)
 {{<figure class="screenshot" src="chrome_BHFDr3kiIf.png">}}
-2. A website with ads will open. **Don't click any of them**. The correct button is labeled "Skip" and is in the **top right**. It will show up after 5 seconds  
+2. A website with ads will open. **Don't click any of them**. The correct button is labelled "Skip" and is in the **top right**. It will show up after 5 seconds  
 {{<figure class="screenshot" src="chrome_IjG9ESvhLu.png">}}
 3. Run the installer. Everything should be correctly set up, so just click "Ok"  
    * *Optional*: If you can't open the downloaded file, the you need to install Java. A guide to that can be found {{<newtablink "here" "/tutorials/installation/setup_java/">}}"

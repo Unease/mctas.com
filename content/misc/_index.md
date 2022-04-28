@@ -1,5 +1,5 @@
 ---
-title: "Misc"
+title: "Misc."
 alt: ""
 description: "Miscellaneous topics and resources"
 ---
