@@ -1,6 +1,7 @@
 ---
 title: "Discord"
-alt: ""
+icon: "/icons/DiscordIcon.png"
+alt: "Discord-Image"
 description: "A short list of all discord servers"
 weight: 0
 ---
