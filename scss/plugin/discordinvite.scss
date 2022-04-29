@@ -8,6 +8,7 @@
 	background-color: #2f3136;
 	border-radius: 4px;
 	max-width: 500px;
+	margin: 10px 0;
 	.splash{
 		object-fit: cover;
 		height: 70px;
@@ -16,57 +17,74 @@
 		border-top-right-radius: 4px;
 	}
 
-	div{
+	.bottom-section {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
-
-		margin: 35px 22px;
-
-		.server-icon{
-			border-radius: 20px;
-			width: 56px;
-			height: 56px;
-		}
-
-		div{
+	
+		padding: 20px;
+	
+		.guild-wrapper {
 			display: flex;
-			flex-direction: column;
-			align-items: flex-start;
-			margin: 0 15px;
-			div{
+			align-items: center;
+			.server-icon {
+				border-radius: 20px;
+				width: 100%;
+			}
+			@media only screen and (max-width: 400px) {
+				font-size: 13px;
+			}
+	
+			.title-wrapper {
 				display: flex;
-				flex-direction: row;
-				align-items: center;
-				margin: initial;
-				div{
-					margin-top: 4px;
-					margin-right: 7px;
-					.discord-indic{
-						&__online{
-							background-color: #2d7d46;
-							height: 10px;
-							width: 10px;
-							border-radius: 5px;
-							margin-right: 4px;
-						}
-						&__offline{
-							background-color: grey;
-							height: 10px;
-							width: 10px;
-							border-radius: 5px;
-							margin-right: 4px
+				flex-direction: column;
+				align-items: flex-start;
+				margin: 0;
+				margin-left: 15px;
+
+	
+				div {
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					margin: initial;
+	
+					div {
+						margin-top: 4px;
+						margin-right: 10px;
+						white-space: nowrap;
+						font-size: smaller;
+	
+						.discord-indic {
+							&__online {
+								background-color: #2d7d46;
+								height: 10px;
+								width: 10px;
+								border-radius: 5px;
+								margin-right: 4px;
+							}
+	
+							&__offline {
+								background-color: grey;
+								height: 10px;
+								width: 10px;
+								border-radius: 5px;
+								margin-right: 4px
+							}
 						}
 					}
+	
 				}
-				
 			}
 		}
 
 		.invitebutton{
 			color: white;
 			padding: 16px 35px;
+			@media only screen and (max-width: 400px) {
+				padding: 16px 30px;
+			}
 			border-radius: 6px;
 			background-color: #2d7d46;
 			transition: background-color .17s ease,color .17s ease;

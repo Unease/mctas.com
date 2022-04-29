@@ -7,6 +7,8 @@ weight: 0
 
 Here is a list of all discord servers we have
 
-{{<discordinvite "jGhNxpd">}}
+{{<discordinvite "jGhNxpd" 0>}}
 
-{{<discordinvite "sdMc5UrGPN">}}
+{{<discordinvite "hUcYSFnJsW" 1>}}
+
+{{<discordinvite "sdMc5UrGPN" 2>}}
