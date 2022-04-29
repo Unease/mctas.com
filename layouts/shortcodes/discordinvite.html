@@ -1,0 +1,50 @@
+<div class="invite">
+	<div>
+		<div>
+			<strong class="discord-title">Minecraft TAS</strong>
+			<div>
+				<div>
+					<i class="discord-indic__online"></i>
+					<p class="discord-online"></p>
+				</div>
+				<div>
+					<i class="discord-indic__offline"></i>
+					<p class="discord-member"></p>
+				</div>
+			</div>
+		</div>
+		<a class="invitebutton" href="https://discord.gg/{{.Get 0}}">Join</a>
+	</div>
+</div>
+
+<script>
+	var url = 'https://discord.com/api/v9/invites/{{.Get 0}}?with_counts=true';
+	fetch(url)
+		.then(response => response.json())
+		.then(json => {
+			console.log(json);
+			let icon = document.createElement("img");
+			let splash = document.createElement("img");
+			let id = json.guild.id;
+			let gicon = json.guild.icon;
+			let gsplash = json.guild.splash;
+			let name = json.guild.name
+		
+			icon.src = "https://cdn.discordapp.com/icons/" + id + "/" + gicon + ".gif?size=56";
+			splash.src = "https://cdn.discordapp.com/splashes/"+ id +"/"+gsplash+".png?size=480"
+		
+			document.getElementsByClassName("discord-title")[document.getElementsByClassName("discord-title").length-1].innerHTML=name;
+			document.getElementsByClassName("discord-online")[document.getElementsByClassName("discord-online").length-1].innerHTML=json.approximate_presence_count+" Online"
+			document.getElementsByClassName("discord-member")[document.getElementsByClassName("discord-member").length-1].innerHTML=json.approximate_member_count+" Members"
+			
+			let element = document.getElementsByClassName("invite");
+			icon.classList.add("server-icon");
+		
+			console.log(splash.src)
+			splash.classList.add("splash");
+			
+			element[element.length - 1].prepend(splash);
+		
+			element[element.length - 1].getElementsByTagName("div")[0].prepend(icon);
+		});
+</script>

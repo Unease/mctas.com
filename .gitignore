@@ -2,4 +2,6 @@
 shields/
 .hugo_build.lock
 public/
-static/styles.*
+static/*.css
+static/*.css.map
+resources/

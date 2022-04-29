@@ -12,7 +12,7 @@ Instead of choosing each input per frame and play back the TAS at the end, non-p
 
 Later in video editing, you _speed up_ the footage from slow motion to normal speed.
 
-The result is a video in normal speed, but the player has better rection times.
+The result is a video in normal speed, but the player has better reaction times.
 
 Additionally you may use **savestates**, which is the ability to create a restore point at any time during your run and if you fail at something, you can reload the savestate to try again.
 
@@ -33,7 +33,7 @@ And writing non-playback tools is also easier than writing playback tools.
 
 ### 3. RNG
 
-Minecraft is really undeterministic. If you start an instance of minecraft the rng is already random, since it is based on system time in nanoseconds. In theory, you can make it deterministic if you have nanosecond precision, which is basically impossible in reality.
+Minecraft is really indeterministic. If you start an instance of Minecraft the RNG is already random, since it is based on system time in nanoseconds. In theory, you can make it deterministic if you have nanosecond precision, which is basically impossible in reality.
 
 And playing the game yourself lets you react to RNG much easier.
 

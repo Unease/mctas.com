@@ -1,6 +1,5 @@
 ---
 title: "Obsolete"
-icon: ""
 alt: ""
 description: "TASTools, Dupemod"
 weight: 0

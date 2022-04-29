@@ -18,7 +18,7 @@ body {
 }
 
 a {
-	color: #27b6bc;
+	color: $color4;
 }
 
 p {
@@ -29,7 +29,7 @@ p {
 
 header {
 	grid-area: header;
-	background: linear-gradient(180deg, #003036 8%, #025a5f 40%, #038387 62%, #27b6bc 100%);
+	background: linear-gradient(180deg, $color1 8%, $color2 40%, $color3 62%, $color4 100%);
 	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
@@ -67,7 +67,7 @@ nav {
 		}
 	}
 	a.active, a:hover {
-	background: #003036;
+	background: $color1;
 	transition: .5s;
 }
 }
@@ -167,7 +167,7 @@ section {
 /*==============================Classes*/
 
 .hovered:hover {
-	background: #27b7bc9a;
+	background: $hover;
 	transition: .5s;
 }
 
