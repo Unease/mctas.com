@@ -39,8 +39,6 @@
 				let onlinecount = json.approximate_presence_count.toLocaleString();
 				let membercount = json.approximate_member_count.toLocaleString();
 			
-				console.log(json);
-
 				let fileExtension=".png";
 				if(gicon.includes("a_")){
 					fileExtension=".gif";
@@ -72,5 +70,5 @@
 			});
 		}
 
-	loadInvite("{{.Get 0}}", {{.Get 1}});
+	loadInvite("{{.Get 0}}", "{{.Get 1}}");
 </script>
