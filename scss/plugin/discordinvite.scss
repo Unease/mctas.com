@@ -48,12 +48,12 @@
 					display: flex;
 					flex-direction: row;
 					align-items: center;
+					white-space: nowrap;
 					margin: initial;
 	
 					div {
 						margin-top: 4px;
 						margin-right: 10px;
-						white-space: nowrap;
 						font-size: smaller;
 	
 						.discord-indic {
