@@ -18,9 +18,11 @@ More interested in developing tools and want to stay up to date? Check out the D
 {{<discordinvite "sdMc5UrGPN" 2>}}
 
 ## Other related discords
-For all things TASing and home of TASBot:
+For all things TASing and the home of TASBot:
 {{<discordinvite "73SXrea" 3>}}
 Our RTA colleagues. You can also find more info on their website: [minecraftspeedrunning.com](https://minecraftspeedrunning.com)
 {{<discordinvite "jmdFn3C" 4>}}
 Resources for Minecraft Bedrock Edition TASes:
 {{<discordinvite "tsffBsYBYE" 5>}}
+Our friends at the CTM Speedrunning Guild, which were the first to use the Potion as a logo:
+{{<discordinvite "QN4wQTat4J" 6>}}

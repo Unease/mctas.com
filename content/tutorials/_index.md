@@ -15,9 +15,14 @@ The tools range from slowdown/frame advance to savestates and RAM-watch. An expl
 
 ## *Minecraft* Tool-Assisted Speedrunning
 Minecraft Java Edition is different to the usual games that are TASed, since it is not running on a
-console games are TASed using an emulator and will then verified on a real console. Minecraft doesn't
-have an emulator, but we can modify the
-game to get a similar result to emulators.
+console. TASes are usually created using an emulator and later will then be verified on a real console. Minecraft doesn't
+have an emulator, but we can modify the game to get a similar result to emulators.  
+
+## What about cheat engine?
+Cheat engine is an external tool that allows you to slow down any game. This was a big issue for the {{<newtablink "Trackmania Community" "https://www.youtube.com/watch?v=yDUdGvgmKIw">}} a while back, as numerous cheated replays were found. It also has a built in RAM watch tool that allows you to manipulate RAM addresses.  
+  
+Yes, you can use this to make TASes, however since we can create mods, we can program slowdown tools ourselves, activating them from inside the game, making TASing a whole lot faster.  However, if you are looking to create Minecraft Bedrock edition TASes, cheat engine is your best friend. You can find a link to the MCBE TAS Server in {{<newtablink "Discord" "/discord/">}}
+
 ## Type
 Over the years 2 types of tutorials emerged. *Playback* TASing is the act of recording keyboard and
 mouse inputs, and playing them back. This is the type that is usually associated with TASing in other
@@ -25,19 +30,3 @@ games, played with an emulator.
 *Non-Playback* TASing emerged as an easier to learn alternative, that is less optimized than
 Playback TASing. Plus there is still a lack of tools regarding Playback TASing, so long story short:
 **Start with Non-Playback.** 
-<!-- {{<rawhtml>}}
-<div class="centerTextalign">
-	<a href="non-playback.html">
-		<figure class="border hovered inlineBlock">
-			<img src="../images/SplashPotion.png" alt="Potion" height="200">
-		<figcaption>Non-Playback</figcaption>
-	</figure>
-</a>
-<a href="playback.html">
-	<figure class="border hovered inlineBlock">
-		<img src="../images/Potion.png" alt="Potion" height="200">
-			<figcaption>Playback</figcaption>
-		</figure>
-	</a>
-</div>
-{{</rawhtml>}} -->
