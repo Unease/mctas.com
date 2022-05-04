@@ -27,9 +27,17 @@
 			.then(json => {
 				let inviteElement = document.getElementsByClassName("invite")[index];
 
+				if(json.code==10006){
+					let discordTitle=inviteElement.getElementsByClassName("discord-title")[0];
+					discordTitle.innerHTML=json.message;
+					return;
+				}
+
 				//Create Element
 				let icon = document.createElement("img");
 				let splash = document.createElement("img");
+
+				console.log(json);
 
 				//Getting guild things
 				let id = json.guild.id;

@@ -1,5 +1,5 @@
 [![hugo github pages](https://github.com/ScribbleLP/mctas.com/actions/workflows/gh-pages.yaml/badge.svg)](https://test.minecrafttas.com)  
-The sourcecode for https://minecrafttas.com
+The source code for https://minecrafttas.com
 
 A completely custom theme that I would not recommend to copy...
 ## Installation
