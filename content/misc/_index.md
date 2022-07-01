@@ -3,40 +3,6 @@ title: "Misc."
 alt: ""
 description: "Miscellaneous topics and resources"
 ---
-
-# Coming Soon!
-{{<rawhtml>}}
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-{{</rawhtml>}}
+Welcome to the miscellaneous part of our website.  
+  
+Here you'll find things that don't really belong anywhere...

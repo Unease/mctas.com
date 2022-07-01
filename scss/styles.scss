@@ -63,13 +63,15 @@ nav {
 				text-decoration: none;
 				border-radius: 3px;
 				padding: 5px;
+
+				transition: background-color .5s ease;
+
+				&.active, &:hover{
+					background-color: $color1;
+				}
 			}
 		}
 	}
-	a.active, a:hover {
-	background: $color1;
-	transition: .5s;
-}
 }
 
 /*==============================Textcontent*/
@@ -161,14 +163,23 @@ section {
 				font-size: 1.5em;
 			}
 		}
+
+		strong{
+			@media screen and (min-width: 800px){
+				letter-spacing: 0.06em;
+			}
+		}
 	}
 }
 
 /*==============================Classes*/
 
+.hovered{
+	transition: background-color .5s ease;
+}
+
 .hovered:hover {
-	background: $hover;
-	transition: .5s;
+	background-color: $hover;
 }
 
 .border {

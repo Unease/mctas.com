@@ -7,10 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	{{ if .IsHome }}
-		<title>MinecraftTAS</title>
+		<title>Minecraft TAS</title>
 		<meta name="description" content="{{.Site.Params.description}}">
 
-		<meta property="og:title" content="MinecraftTAS">
+		<meta property="og:title" content="Minecraft TAS">
 		<meta property="og:image" content="/icons/PotionIcon.png">
 		<meta property="og:description" content="{{.Site.Params.description}}">
 	{{ else }}
@@ -21,7 +21,9 @@
 		{{ if (isset .Params "icon") }}
 			<meta property="og:image" content="{{.Params.icon}}">
 		{{ else }}
+			{{ block "potionicon" . }}
 			<meta property="og:image" content="/icons/PotionIcon.png">
+			{{ end }}
 		{{ end }}
 		<meta property="og:description" content="{{.Description}}">
 
@@ -31,7 +33,7 @@
 	{{ block "style" .}}
 		<link rel="stylesheet" href="/blue.css">
 		<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="theme-color" content="#546980">
+		<meta name="theme-color" content="#27b6bc">
 	{{ end }}
 
 	<meta property="og:type" content="Website">
@@ -57,7 +59,7 @@
 					<li><a {{if in .RelPermalink "/tas-comp/" }} class="active" {{end}}
 							href="/tas-comp/">TAS-Competition</a></li>
 					<li><a {{if in .RelPermalink "/misc/" }} class="active" {{end}} href="/misc/">Misc.</a></li>
-					<li><a {{if in .RelPermalink "/discords/" }} class="active" {{end}}
+					<li><a {{if in .RelPermalink "/discord/" }} class="active" {{end}}
 							href="/discord/">Discord</a></li>
 				</ul>
 			</nav>
