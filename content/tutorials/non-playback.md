@@ -20,11 +20,11 @@ Additionally you may use **savestates**, which is the ability to create a restor
 
 This is a fair question if you are already experienced with TASing in some form. You may also argue that this is not a real form of TASing at all. However, there are several reasons why we may prefer to use non-playback.
 
-### 1. It is easier and quicker to make
+### 1. It is easier and quicker to make {#1-easier}
 
 Playback TASing requires way more time and effort than non-playback. Longer TASes take months or even years to complete.
 
-### 2. The tools for playback are not there yet
+### 2. The tools for playback are not there yet {#2-no-tools}
 
 Tool development is extremely time consuming, especially with Minecraft mods. Using existing tools like {{<newtablink libTAS "https://tasvideos.org/EmulatorResources/LibTAS">}} proved to {{<newtablink "not work on Minecraft Java Edition" "https://github.com/clementgallet/libTAS/issues/47">}}.
 
@@ -49,4 +49,4 @@ However, since we cannot manipulate Minecraft RNG easily, most playback TASes wo
 *   TASing has to be in video form
 *   Difficult for multiple people to collaborate on one TAS
 
-## For downloading non-playback tools, go to [Downloads](/downloads/).
+**For downloading non-playback tools, go to [Downloads](/downloads/).**
