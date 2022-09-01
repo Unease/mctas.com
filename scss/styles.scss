@@ -10,11 +10,14 @@
 	box-sizing: border-box;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: Asap;
 	background-color: rgb(82, 82, 82);
 	color: white;
-	grid-template-areas: "header" "content" "footer";
 }
 
 a {
@@ -46,7 +49,7 @@ header {
 
 /*==============================Navbar*/
 
-nav {
+nav.mainnav {
 	ul {
 		display: flex;
 		flex-wrap: wrap;
@@ -73,11 +76,44 @@ nav {
 		}
 	}
 }
+/*==============================Content*/
+
+.grid{
+	display: grid;
+	grid-template-areas: "left middle right";
+	grid-template-columns: 1fr 2.5fr 1fr;
+}
+
+/*==============================Sidebar*/
+
+aside {
+	grid-area: left;
+	.toc{
+		display: flex;
+		width: fit-content;
+		position: sticky;
+		top: 1rem;
+		margin-left: 2rem;
+		margin-top: 2.7rem;
+		ul {
+			margin-left: 1em;
+			list-style: circle;
+
+			li{
+				margin: 15px 0;
+				
+				a{
+					color: rgb(189, 189, 189);
+				}
+			}
+		}
+	}
+}
 
 /*==============================Textcontent*/
 
 section {
-	grid-area: content;
+	grid-area: middle;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -294,7 +330,6 @@ figcaption {
 /*==============================Footer*/
 
 footer {
-	grid-area: footer;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
