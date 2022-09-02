@@ -4,6 +4,7 @@ icon: "/icons/PotionIcon.png"
 alt: "Potion"
 description: "General information about playback TASes and mods"
 weight: 12
+toc: true
 ---
 
 ## What are playback TASes? {#what-are-pb-tases}

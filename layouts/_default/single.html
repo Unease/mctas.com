@@ -1,9 +1,13 @@
 {{define "main"}}
+
+{{ if .Params.toc }}
 <aside>
 	<div class="toc border">
 		{{ .TableOfContents }}
 	</div>
 </aside>
+{{ end }}
+
 <!-- Section -->
 <section>
 	<article>

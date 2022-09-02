@@ -4,6 +4,7 @@ icon: "/icons/SplashPotionIcon.png"
 alt: "Potion"
 description: "General information about non-playback TASes and mods"
 weight: 11
+toc: true
 ---
 
 ## The basics

@@ -4,6 +4,7 @@ icon: "/icons/Launcher.png"
 alt: "Minecraft Launcher icon"
 description: "Setup mods with the vanilla Minecraft launcher"
 weight: 14
+toc: true
 ---
 ## MC version 1.14+ {#1-14-4}
 (For versions below 1.14 click [here](#1-12-2))

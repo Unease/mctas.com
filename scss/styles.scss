@@ -88,12 +88,12 @@ nav.mainnav {
 
 aside {
 	grid-area: left;
+	justify-self:end;
 	.toc{
 		display: flex;
 		width: fit-content;
 		position: sticky;
 		top: 1rem;
-		margin-left: 2rem;
 		margin-top: 2.7rem;
 		ul {
 			margin-left: 1em;

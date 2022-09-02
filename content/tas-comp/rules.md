@@ -3,6 +3,7 @@ title: "Rules"
 alt: ""
 description: "The rules of the Minecraft TAS-Competition"
 weight: 1
+toc: true
 ---
 
 1. Do **NOT** talk about your submission, whether it's your time, strats or anything else. Not even a hint that you found the best strat ever.

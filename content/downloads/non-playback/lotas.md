@@ -2,13 +2,13 @@
 title: "LoTAS"
 
 alt: ""
-description: "A non-playback mod for version 1.8.9-1.18.1"
+description: "A non-playback mod for version 1.8.9-1.19.2"
 weight: 3
 ---
 
-A non-playback mod for version 1.8.9-1.18.1
+A non-playback mod for version 1.8.9-1.19.2
 
-#### Features
+## Features
 
 *   Tickratechanger
 *   Tickrate 0/Pause server and client

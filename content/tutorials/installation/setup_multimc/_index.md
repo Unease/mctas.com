@@ -4,6 +4,7 @@ icon: "/icons/MultiMC.png"
 alt: "MultiMC Logo"
 description: "Setup mods with the open-source MultiMC launcher"
 weight: 15
+toc: true
 ---
 MultiMC is an open source Minecraft launcher with additional functionalities compared to the [vanilla launcher]({{<ref "/tutorials/installation/setup_mclauncher">}})
   
