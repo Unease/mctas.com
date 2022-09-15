@@ -84,7 +84,7 @@ nav.mainNav {
 .toc {
 	display: flex;
 	width: fit-content;
-	overflow-y: scroll;
+	overflow-y: auto;
 	width: 450px;
 	background-color: #525252;
 	ul {
