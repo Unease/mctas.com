@@ -104,7 +104,7 @@ nav.mainNav {
 	&--wrapper{
 		position: fixed;
 		max-height: 60%;
-		width: 30%;
+		max-width: 30%;
 		top: 10rem;
 		@media screen and (max-width: 850px){
 			top: initial;
@@ -129,6 +129,7 @@ nav.mainNav {
 				padding: 12px;
 			}
 			transition: transform 1s ease, background-color .5s ease;
+			cursor: pointer;
 		}
 		&.opened{
 			.buttonclose{
