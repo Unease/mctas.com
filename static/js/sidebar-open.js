@@ -20,14 +20,3 @@ function toggle(){
 		wrapper.style.transform = "translate("+(toc.getBoundingClientRect().width+7)+"px)"
 	}
 }
-
-function toggle(enable){
-	let wrapper = document.getElementsByClassName("toc--wrapper")[0]
-	if(enable){
-		wrapper.classList.remove("opened")
-		wrapper.style.transform = "initial"
-	}else{
-		wrapper.classList.add("opened")
-		wrapper.style.transform = "translate("+(toc.getBoundingClientRect().width+7)+"px)"
-	}
-}
