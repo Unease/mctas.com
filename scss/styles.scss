@@ -85,7 +85,6 @@ nav.mainNav {
 	display: flex;
 	width: fit-content;
 	overflow-y: auto;
-	width: 450px;
 	background-color: #525252;
 	ul {
 		margin-left: 1em;
@@ -105,7 +104,7 @@ nav.mainNav {
 	&--wrapper{
 		position: fixed;
 		max-height: 60%;
-		width: 500px;
+		width: 30%;
 		top: 10rem;
 		@media screen and (max-width: 850px){
 			top: initial;
