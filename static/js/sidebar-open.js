@@ -6,6 +6,9 @@ let toc = document.getElementsByClassName("toc")[0]
 wrapper.style.left = -(toc.getBoundingClientRect().width+7)+"px"
 
 addEventListener('resize', (event) => {
+	if(wrapper.classList.contains("opened")){
+		wrapper.style.transform = "translate("+(toc.getBoundingClientRect().width+7)+"px)"
+	}
 	wrapper.style.left = -(toc.getBoundingClientRect().width+7)+"px"
 });
 
