@@ -4,7 +4,6 @@ buttonelem.addEventListener("click", toggle)
 let wrapper = document.getElementsByClassName("toc--wrapper")[0]
 let toc = document.getElementsByClassName("toc")[0]
 wrapper.style.left = -(toc.getBoundingClientRect().width+7)+"px"
-wrapper.style.transition = "transform 1s ease"
 
 addEventListener('resize', (event) => {
 	wrapper.style.left = -(toc.getBoundingClientRect().width+7)+"px"
