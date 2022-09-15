@@ -10,7 +10,6 @@ const observer = new IntersectionObserver(entries => {
 });
 
 // Track all sections that have an `id` applied
-console.log(document.querySelectorAll('h2[id], h3[id]'));
 document.querySelectorAll('h2[id], h3[id]').forEach((section) => {
 	observer.observe(section);
 });

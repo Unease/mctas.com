@@ -1,12 +1,7 @@
 {{define "main"}}
 
 {{ if .Params.toc }}
-<script src="/js/toc-highlighter.js" defer async></script>
-<aside>
-	<div class="toc border">
-		{{ .TableOfContents }}
-	</div>
-</aside>
+{{ partial "toc.html" . }}
 {{ end }}
 
 <!-- Section -->

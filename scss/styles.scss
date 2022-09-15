@@ -28,6 +28,7 @@ p {
 	line-height: 1.35em;
 }
 
+
 /*==============================Header*/
 
 header {
@@ -49,7 +50,7 @@ header {
 
 /*==============================Navbar*/
 
-nav.mainnav {
+nav.mainNav {
 	ul {
 		display: flex;
 		flex-wrap: wrap;
@@ -76,48 +77,71 @@ nav.mainnav {
 		}
 	}
 }
-/*==============================Content*/
 
-.grid{
-	display: grid;
-	grid-template-areas: "left middle right";
-	grid-template-columns: 1fr 2.5fr 1fr;
-}
 
 /*==============================Sidebar*/
 
-aside {
-	grid-area: left;
-	justify-self:end;
-	.toc{
-		display: flex;
-		width: fit-content;
-		position: sticky;
-		top: 1rem;
-		margin-top: 2.7rem;
-		ul {
-			margin-left: 1em;
-			list-style: circle;
-
-			li{
-				margin: 15px 0;
-				
-				a{
-					color: rgb(189, 189, 189);
-				}
-			}
-
-			.active > a{
-				color: $color4
+.toc {
+	display: flex;
+	width: fit-content;
+	overflow-y: scroll;
+	width: 450px;
+	background-color: #525252;
+	ul {
+		margin-left: 1em;
+		list-style: circle;
+		li {
+			margin: 15px 0;
+			a {
+				color: rgb(189, 189, 189);
 			}
 		}
+
+		.active>a {
+			color: $color4
+		}
 	}
+
+	&--wrapper{
+		position: fixed;
+		max-height: 60%;
+		width: 500px;
+		top: 10rem;
+		@media screen and (max-width: 850px){
+			top: initial;
+			bottom: 1rem;
+			max-width: 100%;
+		}
+		display: flex;
+		flex-direction: row;
+		z-index: 1;
+		// transform: translate(-445px);
+
+		.buttonclose{
+			background-color: #525252;
+			background-image: url(images/OpenCloseArrow.svg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 30px;
+			height: 30px;
+			@media screen and (max-width: 850px){
+				padding: 10px;
+			}
+			transition: transform 1s ease, background-color .5s ease;
+		}
+		&.opened{
+			.buttonclose{
+				transform: rotate(180deg);
+			}
+			transform: initial;
+		}
+	}
+
 }
 
 /*==============================Textcontent*/
 
 section {
-	grid-area: middle;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

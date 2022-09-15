@@ -50,7 +50,7 @@
 			{{block "logo" .}}
 			<a class="logo" href="/"><img src="/images/title/PotionTitle.svg" alt="potion-title"></a>
 			{{end}}
-			<nav class="mainnav">
+			<nav class="mainNav">
 				<ul>
 					<li><a {{ if .IsHome}} class="active" {{ end }} href="/">Home</a></li>
 					<li><a {{if in .RelPermalink "/tutorials/" }} class="active" {{end}} href="/tutorials/">Tutorials</a>
@@ -67,10 +67,8 @@
 				</ul>
 			</nav>
 		</header>
-		<div class="grid">
 		{{ block "main" .}}
 		{{end}}
-		</div>
 		{{ block "footer" .}}
 		<!-- Footer -->
 		<footer>
