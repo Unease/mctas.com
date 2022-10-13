@@ -1,6 +1,6 @@
 ---
 title: "Non Playback"
-icon: "/icons/SplashPotionIcon.png"
+icon: "/icons/SplashPotionIconPrev.png"
 alt: "Potion"
 description: "General information about non-playback TASes and mods"
 weight: 11
