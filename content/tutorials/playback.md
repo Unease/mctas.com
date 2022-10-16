@@ -4,15 +4,16 @@ icon: "/icons/PotionIcon.png"
 alt: "Potion"
 description: "General information about playback TASes and mods"
 weight: 12
+toc: true
 ---
 
-## What are playback TASes?
+## What are playback TASes? {#what-are-pb-tases}
 
 Most TASes that you will see are made using some form of playback using an {{< newtablink "emulator" "https://en.wikipedia.org/wiki/Emulator">}} with an option called movie playback which allows you to directly playback your TASes in _real time_.
 
 Playback of these movies require no external tampering (e.g hacks/cheats), to run properly as it is the emulator/console reading a series of inputs from an input file like a {{<newtablink "player piano" "https://www.youtube.com/watch?v=aseMAEctM1s&t=15s">}}.
 
-## What are the benefits of playback TASing?
+## What are the benefits of playback TASing? {#benefits}
 
 ### 1. Ease of modification
 

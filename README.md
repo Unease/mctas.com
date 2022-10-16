@@ -6,9 +6,8 @@ A completely custom theme that I would not recommend to copy...
 1. Download [Hugo](https://github.com/gohugoio/hugo/releases)
 2. Put it in the mctas.com folder
 3. Install sass via npm `npm install sass`
-4. Open a command line and run `hugo server`
-5. Compile the css via `sass --watch scss/main_blue.scss:static/blue.css scss/main_green.scss:static/green.css scss/main_red.scss:static/red.css`
-6. Open `http://localhost:1313/`
+4. Run `./startserver.sh`
+5. Open `http://localhost:1313/`
 
 ## Contributing
 Want to add new pages and guides? Add a markdown file into the content folder and choose a subdirectory. The html will be automatically generated.  

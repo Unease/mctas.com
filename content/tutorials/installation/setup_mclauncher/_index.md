@@ -4,9 +4,10 @@ icon: "/icons/Launcher.png"
 alt: "Minecraft Launcher icon"
 description: "Setup mods with the vanilla Minecraft launcher"
 weight: 14
+toc: true
 ---
-## MC version 1.14+
-(For versions below 1.14 click [here](#mc-versions-189---1122))
+## MC version 1.14+ {#1-14-4}
+(For versions below 1.14 click [here](#1-12-2))
 We use the Fabric modloader for mods in 1.14+ 
 
 ### Installing Fabric
@@ -28,7 +29,7 @@ We use the Fabric modloader for mods in 1.14+
 5. Start Minecraft from the launcher on the new profile.
 
 ---
-## MC versions 1.8.9 - 1.12.2
+## MC versions 1.8.9 - 1.12.2 {#1-12-2}
 We use the MinecraftForge modloader for mods in 1.12.2-
 In this, we will install it for MC Version 1.12.2
 

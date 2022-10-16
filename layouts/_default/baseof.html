@@ -27,6 +27,7 @@
 		{{ end }}
 		<meta property="og:description" content="{{.Description}}">
 
+		<script src="/js/link-headings.js" defer async></script>
 	{{ end }}
 		<meta name="keywords" content="Minecraft, TAS, Tool-Assisted Speedrun, Modicikation, Playback, Non-Playback" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,7 +39,9 @@
 
 	<meta property="og:type" content="Website">
 	<meta property="og:url" content="https://minecrafttas.com">
-	<meta property="og:site_name" content="MinecraftTAS">
+	<meta property="og:site_name" content="Minecraft TAS">
+	
+	
 </head>
 <body>
 	<div class="flex-wrapper">
@@ -47,14 +50,14 @@
 			{{block "logo" .}}
 			<a class="logo" href="/"><img src="/images/title/PotionTitle.svg" alt="potion-title"></a>
 			{{end}}
-			<nav>
+			<nav class="mainNav">
 				<ul>
 					<li><a {{ if .IsHome}} class="active" {{ end }} href="/">Home</a></li>
 					<li><a {{if in .RelPermalink "/tutorials/" }} class="active" {{end}} href="/tutorials/">Tutorials</a>
 					</li>
 					<li><a {{if in .RelPermalink "/downloads/" }} class="active" {{end}} href="/downloads/">Downloads</a>
 					</li>
-					<li><a {{if in .RelPermalink "/tasbattle/" }} class="active" {{end}} href="/tas-battle/"
+					<li><a {{if in .RelPermalink "/tas-battle/" }} class="active" {{end}} href="/tas-battle/"
 							>TAS-Battle</a></li>
 					<li><a {{if in .RelPermalink "/tas-comp/" }} class="active" {{end}}
 							href="/tas-comp/">TAS-Competition</a></li>

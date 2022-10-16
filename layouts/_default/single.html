@@ -1,4 +1,9 @@
 {{define "main"}}
+
+{{ if .Params.toc }}
+{{ partial "toc.html" . }}
+{{ end }}
+
 <!-- Section -->
 <section>
 	<article>

@@ -3,6 +3,7 @@ title: "Tutorials"
 draft: false
 weight: 10
 description: "Tutorials about Minecraft TASing"
+toc: true
 ---
 ## Tool-Assisted Speedrunning
 A TAS is a speedrun created or aided by tools that aims to achieve the fastest time possible.  
@@ -18,7 +19,7 @@ Minecraft Java Edition is different to the usual games that are TASed, since it 
 console. TASes are usually created using an emulator and later will then be verified on a real console. Minecraft doesn't
 have an emulator, but we can modify the game to get a similar result to emulators.  
 
-## What about cheat engine?
+## What about cheat engine? {#cheat-engine}
 Cheat engine is an external tool that allows you to slow down any game. This was a big issue for the {{<newtablink "Trackmania Community" "https://www.youtube.com/watch?v=yDUdGvgmKIw">}} a while back, as numerous cheated replays were found. It also has a built in RAM watch tool that allows you to manipulate RAM addresses.  
   
 Yes, you can use this to make TASes, however since we can create mods, we can program slowdown tools ourselves, activating them from inside the game, making TASing a whole lot faster.  However, if you are looking to create Minecraft Bedrock edition TASes, cheat engine is your best friend. You can find a link to the MCBE TAS Server in {{<newtablink "Discord" "/discord/">}}
