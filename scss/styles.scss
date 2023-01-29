@@ -83,6 +83,7 @@ nav.mainNav {
 
 .toc {
 	display: flex;
+	flex-direction: column;
 	width: fit-content;
 	overflow-y: auto;
 	background-color: #525252;
@@ -95,10 +96,12 @@ nav.mainNav {
 				color: rgb(189, 189, 189);
 			}
 		}
-
 		.active>a {
 			color: $color4
 		}
+	}
+	>ul{
+		margin-left: 0;
 	}
 
 	&--wrapper{
@@ -114,7 +117,23 @@ nav.mainNav {
 		display: flex;
 		flex-direction: row;
 		z-index: 1;
-		transition: transform 1s ease;
+
+		.sectionlist {
+			list-style: none;
+			.sectionlistitem::before {
+				content: "»";
+				color: goldenrod;
+				margin-left: -2px;
+				padding-right: 8px;
+			}
+		}
+
+		#TableOfContents{
+			margin-left: 16px;
+			padding: 1px 20px;
+			background-color: #5e5e5e;
+			border-radius: 20px;
+		}
 
 		.buttonclose{
 			background-color: #525252;
@@ -128,7 +147,6 @@ nav.mainNav {
 				height: 25px;
 				padding: 12px;
 			}
-			transition: transform 1s ease, background-color .5s ease;
 			cursor: pointer;
 		}
 		&.opened{
@@ -248,6 +266,10 @@ section {
 
 .hovered:hover {
 	background-color: $hover;
+}
+
+.transitioner{
+	transition: transform 1s ease, background-color .5s ease;
 }
 
 .border {
