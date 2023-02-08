@@ -36,7 +36,7 @@ Good Luck!
   ---
 ## Results
 Result video:
-{{<youtube "Qrn2p_dWtRk">}}  
+{{<youtube-embed "Qrn2p_dWtRk">}}  
   
 {{<spoiler "Placements (Click to open)">}}
 1st: speedycube64, 1:05.29  

@@ -1,0 +1,21 @@
+<div id="{{.link}}" style="display: flex; justify-content: center;">
+	<div style="background-color: black; display: flex; flex-direction:column; justify-content: center; align-items: center; height:315px; width:80%; background-image: url(/images/Potion-Blur.png); background-repeat: no-repeat; background-size: 30%; background-position: center; backdrop-filter: blur(10px);">
+		<p id="load-resource-{{.link}}" style="line-height: initial; text-decoration: underline; cursor: pointer;">
+			Load YouTube video
+		</p>
+		<p>
+			or
+		</p>
+		<a style="line-height: initial; text-decoration: underline; color:inherit" href="https://youtu.be/{{.link}}" target=_blank>Follow the link</a>
+	</div>
+</div>
+<script>
+	document.getElementById("load-resource-{{.link}}").addEventListener("click", loadytvid)
+
+	function loadytvid(){
+		let replace = document.getElementById("{{.link}}")
+		replace.innerHTML='<div><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{.link}}"title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe></div>'
+		replace.classList.add("auto-resizable-iframe")
+		replace.style=""
+	}
+</script>

@@ -1,10 +1,14 @@
 const observer = new IntersectionObserver(entries => {
 	entries.forEach(entry => {
 	  const id = entry.target.getAttribute('id');
+	  const element = document.querySelector(`nav li a[href="#${id}"]`)
+	  if (!element){
+		  return
+	  }
 	  if (entry.intersectionRatio > 0) {
-		  document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+		  element.parentElement.classList.add('active');
 	  } else {
-		  document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+		  element.parentElement.classList.remove('active');
 	  }
 	});
 });

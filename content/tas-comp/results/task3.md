@@ -42,7 +42,7 @@ Good Luck!
 
 ## Results
 Result video:
-{{<youtube "tM1NyIjDFps">}}  
+{{<youtube-embed "tM1NyIjDFps">}}  
   
 {{<spoiler "Placements (Click to open)">}}
 1st: Ltick-Tets, 00:22.33  

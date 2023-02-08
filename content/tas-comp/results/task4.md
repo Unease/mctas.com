@@ -45,7 +45,7 @@ Good Luck!
   ---
 ## Results
 Result video:
-{{<youtube "dCwWVVPoG_U">}}  
+{{<youtube-embed "dCwWVVPoG_U">}}  
 {{<spoiler "Placements (Click to open)">}}
 1st: Mark Lukas, 01:16.24  
 [YouTube](https://youtu.be/OJ7QQFTyUpc)  

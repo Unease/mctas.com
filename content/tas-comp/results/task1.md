@@ -32,7 +32,7 @@ Deadline: Wednesday 25th of November 8pm (GMT)
 ## Results
 
 Result video:  
-{{<youtube "BL8uRJYDmMQ">}}
+{{<youtube-embed "BL8uRJYDmMQ">}}
   
 {{<spoiler "Placements (Click to open)">}}
 1st: speedycube64, 36:13  

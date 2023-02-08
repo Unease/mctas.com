@@ -1,4 +1,4 @@
-<div class="invite">
+<div class=invite id="invite-{{.Get 0}}">
 	<div class="bottom-section">
 		<div class="guild-wrapper">
 			<div class="title-wrapper">
@@ -20,13 +20,12 @@
 </div>
 
 <script>
-	function loadInvite(invite, index){
-		let url = 'https://discord.com/api/v9/invites/{{.Get 0}}?with_counts=true';
+	function loadInvite(invite){
+		let url = 'https://discord.com/api/v10/invites/{{.Get 0}}?with_counts=true';
 		fetch(url)
 			.then(response => response.json())
 			.then(json => {
-				let inviteElement = document.getElementsByClassName("invite")[index];
-
+				let inviteElement = document.getElementById("invite-"+invite);
 				if(json.code==10006){
 					let discordTitle=inviteElement.getElementsByClassName("discord-title")[0];
 					discordTitle.innerHTML=json.message;
@@ -75,5 +74,5 @@
 			});
 		}
 
-	loadInvite("{{.Get 0}}", "{{.Get 1}}");
+	loadInvite("{{.Get 0}}");
 </script>
