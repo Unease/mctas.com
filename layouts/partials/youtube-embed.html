@@ -1,15 +1,12 @@
-<div id="{{.link}}" style="display: flex; justify-content: center;">
-	<style>
-		
-	</style>
-	<div style="text-align: center; font-size:25px; background-color: black; display: flex; flex-direction:column; justify-content: center; align-items: center; height:315px; width:80%; background-image: url(/images/Potion-transparent.png); background-repeat: no-repeat; background-size: 30%; background-position: center;">
-		<p id="load-resource-{{.link}}" style="line-height: initial; text-decoration: underline; cursor: pointer;">
+<div id="{{.link}}" class=externalembed>
+	<div>
+		<p id="load-resource-{{.link}}">
 			Load YouTube video
 		</p>
 		<p>
 			or
 		</p>
-		<a style="line-height: initial; text-decoration: underline; color:inherit" href="https://youtu.be/{{.link}}" target=_blank>Follow the link</a>
+		<a href="https://youtu.be/{{.link}}" target=_blank>Follow the link</a>
 	</div>
 </div>
 <script>
@@ -20,5 +17,6 @@
 		replace.innerHTML='<div><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{.link}}"title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe></div>'
 		replace.classList.add("auto-resizable-iframe")
 		replace.style=""
+		replace.classList.remove("externalembed")
 	}
 </script>
