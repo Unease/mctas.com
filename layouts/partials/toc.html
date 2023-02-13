@@ -2,7 +2,12 @@
 <script src="/js/sidebar-open.js" defer async></script>
 <div class="toc--wrapper">
 	<div class="toc border">
-		{{ .TableOfContents }}
+		{{ $currentpage := .Page }}
+		<ul class="sectionlist">
+			{{ with .FirstSection}}
+				{{ partial "toc-item" (dict "this" . "currentpage" $currentpage) }}
+			{{ end }}
+		</ul>
 	</div>
 	<div class="border buttonclose hovered">
 	</div>

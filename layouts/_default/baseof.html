@@ -20,16 +20,18 @@
 		<meta property="og:title" content="{{.Title}}">
 		{{ if (isset .Params "icon") }}
 			<meta property="og:image" content="{{.Params.icon}}">
+			<meta property="twitter:image" content="{{.Params.icon}}">
 		{{ else }}
 			{{ block "potionicon" . }}
 			<meta property="og:image" content="/icons/PotionIcon.png">
+			<meta property="twitter:image" content="/icons/PotionIcon.png">
 			{{ end }}
 		{{ end }}
 		<meta property="og:description" content="{{.Description}}">
 
 		<script src="/js/link-headings.js" defer async></script>
 	{{ end }}
-		<meta name="keywords" content="Minecraft, TAS, Tool-Assisted Speedrun, Modicikation, Playback, Non-Playback" />
+		<meta name="keywords" content="Minecraft, TAS, Tool-Assisted Speedrun, Modification, Playback, Non-Playback" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ block "style" .}}
 		<link rel="stylesheet" href="/blue.css">

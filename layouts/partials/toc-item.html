@@ -1,0 +1,23 @@
+
+{{ $currentpage := .currentpage }}
+
+{{ if eq .this.Page .currentpage}}
+
+	<li class="sectionlistitem currentsite"><a href="{{.this.Permalink}}">{{ .this.Title }}</a></li>
+
+	{{ if .this.Params.toc }}
+		{{ .this.TableOfContents }}
+	{{ end }}
+{{ else }}
+	<li class="sectionlistitem"><a href="{{.this.Permalink}}">{{ .this.Title }}</a></li>
+{{ end }}
+
+{{if .this.IsSection }}
+	{{ if or (.this.IsAncestor .currentpage) (eq .this.CurrentSection .currentpage)}}
+		<ul class="sectionlist">
+			{{ range .this.Pages }}
+				{{ partial "toc-item" (dict "this" . "currentpage" $currentpage) }}
+			{{ end }}
+		</ul>
+	{{ end }}
+{{end}}

@@ -1,6 +1,6 @@
 ---
 title: "Playback"
-icon: "/icons/PotionIcon.png"
+icon: "/icons/PotionIconPrev.png"
 alt: "Potion"
 description: "General information about playback TASes and mods"
 weight: 12
