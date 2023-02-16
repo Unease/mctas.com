@@ -23,7 +23,7 @@ If you plan on using 1.8-1.12.2 and 1.14+ versions you also need to install mult
 3. In the extracted folder you'll find a "MultiMC.exe", run that
 4. Select your language  
 {{<figure class="screenshot" src="MultiMC_2liiFowVXC.png">}}
-5. Next, select the java installation. If you have nothing here, check {{<newtablink "here" "../setup_java">}}  
+5. Next, select the java installation. If you have nothing here, check {{<newtablink "Setting up Java" "../setup_java">}}  
 {{<figure class="screenshot" src="MultiMC_wZu08AygSk.png">}}
 6. At the bottom you can allocate more memory to Minecraft. 2 GB is usually enough, 4 GB for extreme uses (Playing modpacks).  
 7. Accept or deny the analytics and click "Finish"  
