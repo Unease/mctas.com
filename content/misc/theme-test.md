@@ -4,7 +4,7 @@ title: "Theme Test"
 alt: ""
 description: "A page to see how the theme looks"
 weight: 20
-toc: false
+toc: true
 ---
 
 ## Second heading

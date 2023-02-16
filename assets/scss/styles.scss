@@ -242,7 +242,7 @@ section {
 		}
 	
 		code {
-			background-color: #272822;
+			background-color: #535353;
 			padding: 5px;
 			border-radius: 6px;
 		}
@@ -315,6 +315,10 @@ section {
 
 figcaption {
 	color: white;
+}
+
+.invite{
+	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.25);
 }
 
 .smallnav {
@@ -439,4 +443,10 @@ footer {
 }
 body::-webkit-scrollbar{
 	width: 18px;
+}
+
+/*==============================Selection*/
+
+::selection {
+	background: $color2; /* WebKit/Blink Browsers */
 }
