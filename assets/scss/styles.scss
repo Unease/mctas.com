@@ -6,7 +6,7 @@
 @import "plugin/discordinvite.scss";
 @import "plugin/embed.scss";
 
-$bg-color: #161618;
+$bg-color: #2e2e2e;
 
 * {
 	padding: 0;
@@ -236,14 +236,15 @@ section {
 		}
 		
 		.highlight {
+			overflow-x: auto;
 			code {
 				background-color: inherit;
 				padding: inherit;
 				border-radius: inherit;
-
 			}
 	
 			>pre{
+				width: fit-content;
 				padding: 16px;
 				line-height: 1.45;
 				border-radius: 6px;
