@@ -23,6 +23,7 @@ body {
 	font-family: Asap, sans-serif;
 	background-color: $bg-color;
 	color: white;
+	overflow: overlay;
 }
 
 a {
@@ -403,4 +404,28 @@ footer {
 	position: static;
 	bottom: 0;
 	margin-top: auto;
+}
+
+/*==============================Scrollbar*/
+
+::-webkit-scrollbar{
+	width: 10px;
+	&-track{
+		width: 0px;
+		background-color: #ffffff00;
+	}
+	&-thumb{
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 15px;
+		&:hover{
+			background-color: rgba($color4, .7);
+		}
+	}
+	&-button {
+		display: none;
+	}
+	
+}
+body::-webkit-scrollbar{
+	width: 18px;
 }
