@@ -3,7 +3,7 @@ title: "Why are squids evil?"
 #icon:
 alt: ""
 description: "Never trust them"
-weight: 0
+weight: 10
 toc: false
 ---
 You may have come across a text saying
