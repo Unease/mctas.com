@@ -251,7 +251,7 @@ section {
 		.highlight {
 			overflow-x: auto;
 			width: 100%;
-			font-size: 13px;
+			font-size: 12pt;
 			border-radius: 10px;
 			div{
 				padding: 16px;
@@ -260,6 +260,10 @@ section {
 				background-color: inherit;
 				padding: inherit;
 				border-radius: inherit;
+				text-size-adjust: 100%;
+				-ms-text-size-adjust: 100%;
+				-moz-text-size-adjust: 100%;
+				-webkit-text-size-adjust: 100%;
 			}
 			
 			table{
