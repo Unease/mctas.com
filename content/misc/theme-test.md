@@ -6,6 +6,29 @@ description: "A page to see how the theme looks"
 weight: 20
 toc: true
 ---
+## Codeblock!
+```java {hl_lines=[17]}
+package com.example.examplemod.mixin.test;
+
+import java.util.Random;
+
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Redirect;
+
+import net.minecraft.entity.passive.EntitySquid;
+
+@Mixin(EntitySquid.class)
+public class MixinEntitySquid {
+	
+	@Redirect(method = "<init>", at = @At(value = "INVOKE", target = "Ljava/util/Random;setSeed(J)V"))
+
+	public void inject_Init(Random rand, long seed) {
+		System.out.println("Squids are evil!");
+		rand.setSeed(seed);
+	}
+}
+```
 
 ## Second heading
 
@@ -33,26 +56,3 @@ This site is for testing the theming of the website... The theme is completely c
 ## Discord invite
 {{<discordinvite "minecraft">}}
 
-## Codeblock!
-```java {hl_lines=[17]}
-package com.example.examplemod.mixin.test;
-
-import java.util.Random;
-
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Redirect;
-
-import net.minecraft.entity.passive.EntitySquid;
-
-@Mixin(EntitySquid.class)
-public class MixinEntitySquid {
-	
-	@Redirect(method = "<init>", at = @At(value = "INVOKE", target = "Ljava/util/Random;setSeed(J)V"))
-
-	public void inject_Init(Random rand, long seed) {
-		System.out.println("Squids are evil!");
-		rand.setSeed(seed);
-	}
-}
-```

@@ -13,6 +13,7 @@
 
 @import "plugin/discordinvite.scss";
 @import "plugin/embed.scss";
+@import "plugin/syntax.scss";
 
 $bg-color: #2e2e2e;
 
@@ -251,23 +252,20 @@ section {
 		.highlight {
 			overflow-x: auto;
 			width: 100%;
-			font-size: 12pt;
-			border-radius: 10px;
+			
+			text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			-moz-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
 			div{
-				padding: 16px;
+				border-radius: 10px;
+				padding: 15px;
+				width: min-content;
 			}
 			code {
 				background-color: inherit;
 				padding: inherit;
 				border-radius: inherit;
-				text-size-adjust: 100%;
-				-ms-text-size-adjust: 100%;
-				-moz-text-size-adjust: 100%;
-				-webkit-text-size-adjust: 100%;
-			}
-			
-			table{
-				width: min-content;
 			}
 			margin-bottom: 20px;
 		}
