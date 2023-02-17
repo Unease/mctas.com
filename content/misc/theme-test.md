@@ -34,7 +34,7 @@ This site is for testing the theming of the website... The theme is completely c
 {{<discordinvite "minecraft">}}
 
 ## Codeblock!
-```java
+```java {hl_lines=[17]}
 package com.example.examplemod.mixin.test;
 
 import java.util.Random;

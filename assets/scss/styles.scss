@@ -186,6 +186,7 @@ section {
 
 	article {
 		margin: 40px;
+		width: 90vw;
 		max-width: 43em;
 	
 		.screenshot img {
@@ -249,14 +250,15 @@ section {
 		
 		.highlight {
 			overflow-x: auto;
+			width: 100%;
 			code {
 				background-color: inherit;
 				padding: inherit;
 				border-radius: inherit;
 			}
-	
+			
 			>pre{
-				width: fit-content;
+				width: min-content;
 				padding: 16px;
 				line-height: 1.45;
 				border-radius: 6px;
