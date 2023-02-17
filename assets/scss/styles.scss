@@ -251,21 +251,19 @@ section {
 		.highlight {
 			overflow-x: auto;
 			width: 100%;
+			font-size: 13px;
+			border-radius: 10px;
+			div{
+				padding: 16px;
+			}
 			code {
 				background-color: inherit;
 				padding: inherit;
 				border-radius: inherit;
 			}
 			
-			>pre{
-				font-size: 1rem;
+			table{
 				width: min-content;
-				padding: 16px;
-				line-height: 1.45;
-				border-radius: 6px;
-				>code{
-					padding: 0;
-				}
 			}
 			margin-bottom: 20px;
 		}
