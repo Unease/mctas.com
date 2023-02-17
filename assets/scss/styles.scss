@@ -251,7 +251,6 @@ section {
 		.highlight {
 			overflow-x: auto;
 			width: 100%;
-			font-size: 1em;
 			code {
 				background-color: inherit;
 				padding: inherit;
@@ -259,6 +258,7 @@ section {
 			}
 			
 			>pre{
+				font-size: 1rem;
 				width: min-content;
 				padding: 16px;
 				line-height: 1.45;
