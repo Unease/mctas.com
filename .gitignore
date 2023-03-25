@@ -2,7 +2,5 @@
 shields/
 .hugo_build.lock
 public/
-static/*.css
-static/*.css.map
 resources/
 hugo.exe
