@@ -3,7 +3,7 @@ title: "Joining the server"
 #icon:
 alt: ""
 description: "How to connect to the TAS-Battle server, Server IP"
-weight: 3
+weight: 03002000
 toc: false
 ---
 

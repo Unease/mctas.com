@@ -1,6 +1,7 @@
 ---
 title: "Downloads"
 description: "Download page for all sorts of mods"
+weight: 02000000
 ---
 
 ## Important!

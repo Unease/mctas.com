@@ -3,7 +3,7 @@ title: "Java Setup"
 icon: "/icons/Java.png"
 alt: "Java Icon"
 description: "Installation guide for Java"
-weight: 16
+weight: 01040300
 ---
 Some Minecraft versions require different Java versions to run and for applications like MultiMC, you need to install java yourself.  
 By the time of writing this, Minecraft 1.18.2 is the latest version and the latest Java version is Java 18 (which is like a month old... I will still use 17 for now)

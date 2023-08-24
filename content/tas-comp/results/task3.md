@@ -3,7 +3,7 @@ title: "Task 3"
 
 alt: ""
 description: "Stack of Lime Wool% SS (1.16.1)"
-weight: 3
+weight: 04020300
 ---
 *Announced on 12.03.2021*  
   

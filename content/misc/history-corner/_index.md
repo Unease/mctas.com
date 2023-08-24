@@ -1,7 +1,7 @@
 ---
 title: "History Corner"
 description: "Interested in why things are the way they are? Then here is a bit of history on some things"
-weight: 2
+weight: 05020000
 ---
 
-# Coming Soon!
+Blast from the past!

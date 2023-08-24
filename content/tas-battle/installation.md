@@ -3,7 +3,7 @@ title: "Installation"
 #icon:
 alt: ""
 description: "How to setup the TAS-Battle mod"
-weight: 2
+weight: 03001000
 toc: true
 ---
 

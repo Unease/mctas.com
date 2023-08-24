@@ -2,7 +2,7 @@
 title: "TAS Battle"
 alt: ""
 description: "Information about Minecraft TAS Battles"
-weight: 6
+weight: 03000000
 ---
 TAS Battles is a type of PVP. It uses mods to play various gamemodes in slow motion. Originally we used the same mods as we use for Tool-Assisted Speedrunning, which is why we call it "TAS"-Battle even tho it has nothing to do with speedrunning.  
   

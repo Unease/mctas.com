@@ -3,7 +3,7 @@ title: "Tools"
 icon: "/icons/Wrench.png"
 alt: "Wrench Icon"
 description: "Descriptions for the most common tools in TASing"
-weight: 13
+weight: 01030000
 toc: true
 ---
 Here is a list of commonly used tools in Minecraft TASing... While you may recognise some of these tools from emulator TASing, the implementation in Minecraft is most likely completely different.

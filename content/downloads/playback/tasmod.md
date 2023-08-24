@@ -3,7 +3,9 @@ title: "TASmod"
 
 alt: ""
 description: "The main playback mod, currently only for version 1.12.2"
-weight: 0
+weight: 02020100
+next: false
+prev: false
 ---
 
 The main playback mod, currently only for version 1.12.2

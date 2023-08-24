@@ -3,7 +3,7 @@ title: "Why are squids evil?"
 #icon:
 alt: ""
 description: "Never trust them"
-weight: 10
+weight: 05020000
 toc: false
 ---
 You may have come across a text saying
@@ -35,4 +35,4 @@ As a quick fix, Mojang decided to set the seed of the squid manually, so they wo
 And for the more technical readers:  
 Squids in 1.12.2 set their entityseed in the constructor to 1 plus their entityid, which is counted up everytime an entity is created, essentially creating a seed for every squid. The rotation of the squid is set directly after that, which also leads me to my theory
 
-Being mad at squids, Scribble declared them as evil, which is now an easter egg and the inspiration behind {{<newtablink "KillTheRNG" "https://github.com/ScribbleLP/KillTheRNG">}} to fix exactly that problem and much much more.
+Being mad at squids, Scribble declared them as evil, which is now an easter egg and the inspiration behind {{<newtablink "KillTheRNG" "https://github.com/MinecraftTAS/KillTheRNG">}} to fix exactly that problem and much much more.

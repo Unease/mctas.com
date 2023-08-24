@@ -3,7 +3,7 @@ title: "Task 2"
 
 alt: ""
 description: "Bakery% SSG (1.12.2)"
-weight: 2
+weight: 04020200
 ---
 *Announced on 02.12.2020*  
   

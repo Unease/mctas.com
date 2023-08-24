@@ -3,7 +3,9 @@ title: "TASmod-OG"
 
 alt: ""
 description: "Experimental TASmod version for MC version 1.0"
-weight: 0
+weight: 02020200
+next: false
+prev: false
 ---
 
 Experimental TASmod version for MC version 1.0

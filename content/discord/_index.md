@@ -3,7 +3,7 @@ title: "Discord"
 icon: "/icons/DiscordIcon.png"
 alt: "Discord-Image"
 description: "A short list of all discord servers"
-weight: 0
+weight: 06000000
 ---
 
 The main Minecraft TAS Server:

@@ -3,7 +3,7 @@ title: "Task 4.5"
 
 alt: ""
 description: "Selfie% SSG (1.19.4+1.20), Multi-Game TAS Competition Round 1"
-weight: 4
+weight: 04020500
 ---
 *Announced on 15.07.2023*
 

@@ -1,0 +1,29 @@
+<nav class="next-previous">
+	{{ if isset .Params "prev" }}
+		{{ if .Params.prev }}
+			{{ $nextpage := .GetPage .Params.prev }}
+			<a class="hovered border next" href="{{$nextpage.Permalink}}"> {{ $nextpage.Title }}</a>
+		{{ end }}
+	{{ else }}
+		{{ if .NextInSection}}
+			{{ $nextpage := .NextInSection }}
+			<a class="hovered border next" href="{{$nextpage.Permalink}}">{{ $nextpage.Title }}</a>
+		{{else}}
+			<div></div>
+		{{ end }}
+	{{ end }}
+
+	{{ if (isset .Params "next") }}
+		{{ if .Params.next }}
+			{{ $prevpage := .GetPage .Params.next }}
+			<a class="hovered border prev" href="{{$prevpage.Permalink}}">{{ $prevpage.Title }}</a>
+		{{ end }}
+	{{ else }}
+		{{ if .PrevInSection}}
+			{{ $prevpage := .PrevInSection }}
+			<a class="hovered border prev" href="{{$prevpage.Permalink}}">{{ $prevpage.Title }}</a>
+		{{else}}
+			<div></div>
+		{{ end }}
+	{{ end }}
+</nav>

@@ -3,7 +3,7 @@ title: "Task 1"
 
 alt: ""
 description: "Tomb Destroyer% SS (1.12.2)"
-weight: 1
+weight: 04020100
 ---
 *Announced on 18.11.2020*  
   

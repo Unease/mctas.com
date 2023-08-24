@@ -3,7 +3,7 @@ title: "Task 4"
 
 alt: ""
 description: "Burnout% SSGP (1.12.2)"
-weight: 4
+weight: 04020400
 ---
 *Announced on 19.11.2021*  
   
