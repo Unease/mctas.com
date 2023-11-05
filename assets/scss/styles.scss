@@ -189,11 +189,22 @@ section {
 		margin: 40px;
 		width: 90vw;
 		max-width: 43em;
-	
+		
 		.screenshot img {
 			width: 100%;
 			height: auto;
 			margin: 10px 0;
+		}
+
+		.screenshot-medium {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			img {
+				width: 50%;
+				height: auto;
+				margin: 10px 0;
+			}
 		}
 	
 		h1 {
