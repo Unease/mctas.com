@@ -14,9 +14,8 @@ For that reason you need to install this mod yourself.
 1. Head over to https://fabricmc.net/use/installer/
 2. Click "Download for Windows". {{<figure class="screenshot" src="chrome_l3kI2GxWQa.png">}}
 3. Open the downloaded file.
-4. Select "1.19.4" inder Minecraft version. The loader version should be always kept at the newest {{<figure src="javaw_BJDvti0kUJ.png" class="screenshot">}}
+4. Select "1.19.4" as the Minecraft version. The loader version should be always kept at the newest {{<figure src="javaw_cbhrXLYhqa.png" class="screenshot">}}
 5. Next we need to download the required mods:
-	* Fabric API 1.19.4: https://modrinth.com/mod/fabric-api/version/0.87.2+1.19.4
 	* TAS-Battle: https://data.mgnet.work/tasbattle/client.jar
 6. Put them into `.minecraft/mods/`.  
   **Remove mods from other Minecraft Versions from this folder, otherwise the game might not start!**
@@ -30,11 +29,7 @@ the difference is, that you don't have to create a new instance, you can import 
 
 If you have set up MultiMC and finished {{<newtablink "setting up your Minecraft account" "/tutorials/installation/setup_multimc/#adding-your-minecraft-account">}}, follow these steps to quickly import an instance:
 1. Click on "Add Instance" in the top left of MultiMC.
-2. Select "Import from zip" and paste `https://data.mgnet.work/TAS-Battle%20for%20MultiMC.zip` in the field. {{<figure class="screenshot" src="MultiMC_jRKvHJE0nc.png">}}
+2. Select "Import from zip" and paste `https://data.mgnet.work/tasbattle/TAS-Battle%20for%20MultiMC.zip` in the field. {{<figure class="screenshot" src="MultiMC_ifgO4jsO2p.png">}}
 (*You can also download it from the link and load it as a file from your PC*)
 3. Click OK and wait for it to download
 4. Start the instance by doubleclicking
-
-### Tip
-This instance comes with several other mods. Right-Clicking the instance and "Edit Instance", then loader mods lets you disable some of them by unticking the checkbox.
-{{<figure src="MultiMC_K7ofPIo5Cp.png" class="screenshot">}}
