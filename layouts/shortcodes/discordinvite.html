@@ -1,16 +1,18 @@
-<div class=invite id="invite-{{.Get 0}}">
+<div class="invite" invite-url="{{.Get 0}}">
+	<img class = "splash" style = "display: none;"></img>
 	<div class="bottom-section">
 		<div class="guild-wrapper">
+			<img class = "server-icon" src="/discordinvite/missing.png"></img>
 			<div class="title-wrapper">
-				<strong class="discord-title"></strong>
+				<strong class="discord-title">https://discord.gg/{{.Get 0}}</strong>
 				<div>
 					<div>
 						<i class="discord-indic__online"></i>
-						<p class="discord-online"></p>
+						<p class="discord-online">???</p>
 					</div>
 					<div>
 						<i class="discord-indic__offline"></i>
-						<p class="discord-member"></p>
+						<p class="discord-member">???</p>
 					</div>
 				</div>
 			</div>
@@ -18,61 +20,3 @@
 		<a class="invitebutton" href="https://discord.gg/{{.Get 0}}">Join</a>
 	</div>
 </div>
-
-<script>
-	function loadInvite(invite){
-		let url = 'https://discord.com/api/v10/invites/{{.Get 0}}?with_counts=true';
-		fetch(url)
-			.then(response => response.json())
-			.then(json => {
-				let inviteElement = document.getElementById("invite-"+invite);
-				if(json.code==10006){
-					let discordTitle=inviteElement.getElementsByClassName("discord-title")[0];
-					discordTitle.innerHTML=json.message;
-					return;
-				}
-
-				//Create Element
-				let icon = document.createElement("img");
-				let splash = document.createElement("img");
-
-				//Getting guild things
-				let id = json.guild.id;
-				let gicon = json.guild.icon;
-				let gsplash = json.guild.splash;
-				let name = json.guild.name;
-				let onlinecount = json.approximate_presence_count.toLocaleString();
-				let membercount = json.approximate_member_count.toLocaleString();
-			
-				let fileExtension=".png";
-				if(gicon.includes("a_")){
-					fileExtension=".gif";
-				}
-
-				icon.src = "https://cdn.discordapp.com/icons/" + id + "/" + gicon + fileExtension + "?size=128";
-
-			
-				let discordTitle=inviteElement.getElementsByClassName("discord-title")[0];
-				let discordOnline=inviteElement.getElementsByClassName("discord-online")[0];
-				let discordMembers=inviteElement.getElementsByClassName("discord-member")[0];
-
-				discordTitle.innerHTML=name;
-				discordOnline.innerHTML=onlinecount+" Online";
-				discordMembers.innerHTML=membercount+" Members"
-				
-				
-				icon.classList.add("server-icon");
-			
-				splash.classList.add("splash");
-				
-				if(gsplash!=null){
-					splash.src = "https://cdn.discordapp.com/splashes/"+ id +"/"+gsplash+".png?size=480"
-					inviteElement.prepend(splash);
-				}
-			
-				inviteElement.getElementsByTagName("div")[0].getElementsByTagName("div")[0].prepend(icon);
-			});
-		}
-
-	loadInvite("{{.Get 0}}");
-</script>

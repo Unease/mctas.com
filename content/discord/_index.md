@@ -5,11 +5,13 @@ alt: "Discord-Image"
 description: "A short list of all discord servers"
 weight: 06000000
 ---
+{{<load-discordinvite>}}
 
 The main Minecraft TAS Server:
 {{<discordinvite "jGhNxpd">}}
 
 ## Other related discords
+
 For all things TASing and the home of TASBot:
 {{<discordinvite "73SXrea">}}
 Our RTA colleagues. You can also find more info on their website: [minecraftspeedrunning.com](https://minecraftspeedrunning.com)
