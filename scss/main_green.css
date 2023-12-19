@@ -71,17 +71,28 @@
               width: 10px;
               border-radius: 5px;
               margin-right: 4px; }
-    .invite .bottom-section .invitebutton {
-      color: white;
-      padding: 14px 35px;
-      min-width: 100px;
-      flex-grow: 1;
-      border-radius: 6px;
-      text-align: center;
-      background-color: #2d7d46;
-      transition: background-color .17s ease,color .17s ease; }
-    .invite .bottom-section .invitebutton:hover {
-      background-color: #215b32; }
+
+.invitebutton {
+  color: white;
+  padding: 14px 35px;
+  min-width: 100px;
+  flex-grow: 1;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #2d7d46;
+  transition: background-color .17s ease,color .17s ease;
+  cursor: pointer; }
+
+.invitebutton:hover {
+  background-color: #215b32; }
+
+.load-discordinvite {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .load-discordinvite .invitebutton {
+    margin-right: 10px; }
 
 .externalembed {
   display: flex;
@@ -512,6 +523,14 @@ section {
       width: 100%;
       height: auto;
       margin: 10px 0; }
+    section article .screenshot-medium {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      section article .screenshot-medium img {
+        width: 50%;
+        height: auto;
+        margin: 10px 0; }
     section article h1 {
       font-family: Asap-Condensed-SemiBold, sans-serif;
       font-size: 3em;
@@ -660,6 +679,25 @@ figcaption {
 .permalink:hover {
   opacity: 100%;
   transition: opacity .5s ease; }
+
+.next-previous {
+  display: flex;
+  justify-content: space-between; }
+  .next-previous a {
+    padding: 15px;
+    padding-bottom: 18px; }
+  .next-previous .next::before {
+    content: "«";
+    color: goldenrod;
+    margin-left: -2px;
+    padding-right: 8px;
+    font-size: 1.4em; }
+  .next-previous .prev::after {
+    content: "»";
+    color: goldenrod;
+    margin-left: 2px;
+    padding-left: 8px;
+    font-size: 1.4em; }
 
 /*==============================Footer*/
 footer {
