@@ -2,7 +2,7 @@
 title: "Rules"
 alt: ""
 description: "The rules of the Minecraft TAS-Competition"
-weight: 1
+weight: 04001000
 toc: true
 ---
 

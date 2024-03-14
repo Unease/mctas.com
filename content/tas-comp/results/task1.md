@@ -3,7 +3,7 @@ title: "Task 1"
 
 alt: ""
 description: "Tomb Destroyer% SS (1.12.2)"
-weight: 1
+weight: 04020100
 ---
 *Announced on 18.11.2020*  
   
@@ -32,7 +32,7 @@ Deadline: Wednesday 25th of November 8pm (GMT)
 ## Results
 
 Result video:  
-{{<youtube "BL8uRJYDmMQ">}}
+{{<youtube-embed "BL8uRJYDmMQ">}}
   
 {{<spoiler "Placements (Click to open)">}}
 1st: speedycube64, 36:13  

@@ -1,0 +1,32 @@
+.externalembed{
+	display: flex; 
+	justify-content: center;
+	
+	div{
+		text-align: center;
+		font-size:25px;
+		border-radius: 15px;
+		border: 2px dashed white;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+		height:315px;
+		width:80%;
+		@media screen and (max-width: 450px){
+			width: 100%;
+		}
+		background-image: url(/images/Potion-transparent.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: center;
+
+		p[id]{
+			line-height: initial; text-decoration: underline; cursor: pointer;
+		}
+		a {
+			line-height: initial; text-decoration: underline; color:inherit
+		}
+	}
+	
+}

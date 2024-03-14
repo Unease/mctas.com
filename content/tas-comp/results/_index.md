@@ -1,9 +1,8 @@
 ---
 title: "Hall of Fame"
-
 alt: ""
 description: "Past TAS-Competition results!"
-weight: 2
+weight: 04020000
 ---
 
 Welcome to the hall of fame! in here you can view past TASCompetition results!

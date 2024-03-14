@@ -1,12 +1,11 @@
-[![hugo github pages](https://github.com/ScribbleLP/mctas.com/actions/workflows/gh-pages.yaml/badge.svg)](https://test.minecrafttas.com)  
+[![hugo github pages](https://github.com/MinecraftTAS/mctas.com/actions/workflows/gh-pages.yaml/badge.svg)](https://test.minecrafttas.com)  
 The source code for https://minecrafttas.com
 
-A completely custom theme that I would not recommend to copy...
+Uses a completely custom theme that I would not recommend to copy...
 ## Installation
-1. Download [Hugo](https://github.com/gohugoio/hugo/releases)
-2. Put it in the mctas.com folder
-3. Install sass via npm `npm install sass`
-4. Run `./startserver.sh`
+1. Download [Hugo Extended](https://github.com/gohugoio/hugo/releases) (hugo_extended_\<number\>_windows-amd64)
+2. Extract it and put it in the mctas.com folder
+3. Run `./hugo.exe server` or `./startserver.sh`
 5. Open `http://localhost:1313/`
 
 ## Contributing

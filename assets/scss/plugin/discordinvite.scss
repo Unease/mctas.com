@@ -81,20 +81,31 @@
 				}
 			}
 		}
-
-		.invitebutton{
-			color: white;
-			padding: 14px 35px;
-			min-width: 100px;
-			flex-grow: 1;
-			border-radius: 6px;
-			text-align: center;
-			background-color: #2d7d46;
-			transition: background-color .17s ease,color .17s ease;
-		}
-
-		.invitebutton:hover{
-			background-color: #215b32;
-		}
 	}
+}
+
+.invitebutton {
+	color: white;
+	padding: 14px 35px;
+	min-width: 100px;
+	flex-grow: 1;
+	border-radius: 6px;
+	text-align: center;
+	background-color: #2d7d46;
+	transition: background-color .17s ease,color .17s ease;
+	cursor: pointer;
+}
+
+.invitebutton:hover{
+	background-color: #215b32;
+}
+
+.load-discordinvite {
+	.invitebutton {
+		margin-right: 10px;
+	}
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }

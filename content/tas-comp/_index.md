@@ -2,7 +2,7 @@
 title: "TAS Competition"
 alt: ""
 description: "Information about the Minecraft TAS Competition"
-weight: 5
+weight: 04000000
 ---
 In this competition, you can put your TASing skills to the test. 
 You and all the other participants get the same task, fastest person to complete the task wins the competition.  

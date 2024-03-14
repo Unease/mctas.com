@@ -19,19 +19,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          # extended: true
-
-      - name: Compile CSS from SCSS files
-        uses: gha-utilities/sass-build@v0.4.9
-        with:
-          source: |
-            scss/main_blue.scss
-            scss/main_green.scss
-            scss/main_red.scss
-          destination: |
-            static/blue.css
-            static/green.css
-            static/red.css
+          extended: true
 
       - name: Build
         run: hugo --minify -b https://test.minecrafttas.com

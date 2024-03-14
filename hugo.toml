@@ -1,0 +1,19 @@
+baseURL = 'https://minecrafttas.com'
+languageCode = 'en-gb'
+title = 'Home'
+[params]
+	description = "Minecraft Tool-Assisted Speedrunning resources and more!"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    tabWidth = 4

@@ -1,7 +1,7 @@
 ---
 title: "Tutorials"
 draft: false
-weight: 10
+weight: 01000000
 description: "Tutorials about Minecraft TASing"
 toc: true
 ---

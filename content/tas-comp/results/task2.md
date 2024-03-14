@@ -3,7 +3,7 @@ title: "Task 2"
 
 alt: ""
 description: "Bakery% SSG (1.12.2)"
-weight: 2
+weight: 04020200
 ---
 *Announced on 02.12.2020*  
   
@@ -36,7 +36,7 @@ Good Luck!
   ---
 ## Results
 Result video:
-{{<youtube "Qrn2p_dWtRk">}}  
+{{<youtube-embed "Qrn2p_dWtRk">}}  
   
 {{<spoiler "Placements (Click to open)">}}
 1st: speedycube64, 1:05.29  

@@ -3,7 +3,7 @@ title: "Task 3"
 
 alt: ""
 description: "Stack of Lime Wool% SS (1.16.1)"
-weight: 3
+weight: 04020300
 ---
 *Announced on 12.03.2021*  
   
@@ -42,7 +42,7 @@ Good Luck!
 
 ## Results
 Result video:
-{{<youtube "tM1NyIjDFps">}}  
+{{<youtube-embed "tM1NyIjDFps">}}  
   
 {{<spoiler "Placements (Click to open)">}}
 1st: Ltick-Tets, 00:22.33  

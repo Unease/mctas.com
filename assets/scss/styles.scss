@@ -1,7 +1,21 @@
 @font-face {
 	font-family: 'Asap';
-	src: url('fonts/Asap-VariableFont_wght.ttf');
+	src: url('/fonts/Asap-VariableFont_wght.ttf');
 }
+@font-face {
+	font-family: 'Asap-Condensed-Regular';
+	src: url('/fonts/condensed/AsapCondensed-Regular.ttf');
+}
+@font-face {
+	font-family: 'Asap-Condensed-SemiBold';
+	src: url('/fonts/condensed/AsapCondensed-SemiBold.ttf');
+}
+
+@import "plugin/discordinvite.scss";
+@import "plugin/embed.scss";
+@import "plugin/syntax.scss";
+
+$bg-color: #2e2e2e;
 
 * {
 	padding: 0;
@@ -16,8 +30,9 @@ html{
 
 body {
 	font-family: Asap, sans-serif;
-	background-color: rgb(82, 82, 82);
+	background-color: $bg-color;
 	color: white;
+	overflow: overlay;
 }
 
 a {
@@ -86,7 +101,7 @@ nav.mainNav {
 	flex-direction: column;
 	width: fit-content;
 	overflow-y: auto;
-	background-color: #525252;
+	background-color: $bg-color;
 	ul {
 		margin-left: 1em;
 		list-style: circle;
@@ -135,13 +150,13 @@ nav.mainNav {
 		#TableOfContents{
 			margin-left: 16px;
 			padding: 1px 20px;
-			background-color: #5e5e5e;
+			background-color: lighten($bg-color, 10%);
 			border-radius: 20px;
 		}
 
 		.buttonclose{
-			background-color: #525252;
-			background-image: url(images/OpenCloseArrow.svg);
+			background-color: $bg-color, 20%;
+			background-image: url(/images/OpenCloseArrow.svg);
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 30px;
@@ -172,25 +187,40 @@ section {
 
 	article {
 		margin: 40px;
+		width: 90vw;
 		max-width: 43em;
-	
+		
 		.screenshot img {
 			width: 100%;
 			height: auto;
 			margin: 10px 0;
 		}
+
+		.screenshot-medium {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			img {
+				width: 50%;
+				height: auto;
+				margin: 10px 0;
+			}
+		}
 	
 		h1 {
+			font-family: Asap-Condensed-SemiBold, sans-serif;
 			font-size: 3em;
 			margin-bottom: 0px;
 		}
 	
 		h2 {
+			font-family: Asap-Condensed-SemiBold, sans-serif;
 			margin-top: 70px;
 			font-size: 2em;
 		}
 	
 		h3 {
+			font-family: Asap-Condensed-SemiBold, sans-serif;
 			margin-top: 40px;
 			font-size: 1.5em;
 			img{
@@ -225,26 +255,28 @@ section {
 		}
 	
 		code {
-			background-color: #272822;
+			background-color: #535353;
 			padding: 5px;
 			border-radius: 6px;
 		}
 		
 		.highlight {
+			overflow-x: auto;
+			width: 100%;
+			
+			text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			-moz-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+			div{
+				border-radius: 10px;
+				padding: 15px;
+				width: min-content;
+			}
 			code {
 				background-color: inherit;
 				padding: inherit;
 				border-radius: inherit;
-
-			}
-	
-			>pre{
-				padding: 16px;
-				line-height: 1.45;
-				border-radius: 6px;
-				>code{
-					padding: 0;
-				}
 			}
 			margin-bottom: 20px;
 		}
@@ -269,7 +301,7 @@ section {
 }
 
 .hovered:hover {
-	background-color: $hover;
+	background-color: darken($hover, 10%);
 }
 
 .transitioner{
@@ -297,6 +329,10 @@ section {
 
 figcaption {
 	color: white;
+}
+
+.invite{
+	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.25);
 }
 
 .smallnav {
@@ -385,6 +421,29 @@ figcaption {
 	transition: opacity .5s ease;
 }
 
+.next-previous {
+	display: flex;
+	justify-content: space-between;
+	a {
+		padding: 15px;
+		padding-bottom: 18px;
+	}
+	.next::before{
+		content: "«";
+		color: goldenrod;
+		margin-left: -2px;
+		padding-right: 8px;
+		font-size: 1.4em;
+	}
+	.prev::after{
+		content: "»";
+		color: goldenrod;
+		margin-left: 2px;
+		padding-left: 8px;
+		font-size: 1.4em;
+	}
+}
+
 /*==============================Footer*/
 
 footer {
@@ -397,4 +456,34 @@ footer {
 	position: static;
 	bottom: 0;
 	margin-top: auto;
+}
+
+/*==============================Scrollbar*/
+
+::-webkit-scrollbar{
+	width: 10px;
+	&-track{
+		width: 0px;
+		background-color: #ffffff00;
+	}
+	&-thumb{
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 15px;
+		&:hover{
+			background-color: rgba($color4, .7);
+		}
+	}
+	&-button {
+		display: none;
+	}
+	
+}
+body::-webkit-scrollbar{
+	width: 18px;
+}
+
+/*==============================Selection*/
+
+::selection {
+	background: $color2; /* WebKit/Blink Browsers */
 }

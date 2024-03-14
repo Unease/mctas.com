@@ -3,7 +3,7 @@ title: "Task 4"
 
 alt: ""
 description: "Burnout% SSGP (1.12.2)"
-weight: 4
+weight: 04020400
 ---
 *Announced on 19.11.2021*  
   
@@ -45,7 +45,7 @@ Good Luck!
   ---
 ## Results
 Result video:
-{{<youtube "dCwWVVPoG_U">}}  
+{{<youtube-embed "dCwWVVPoG_U">}}  
 {{<spoiler "Placements (Click to open)">}}
 1st: Mark Lukas, 01:16.24  
 [YouTube](https://youtu.be/OJ7QQFTyUpc)  

@@ -2,11 +2,13 @@
 title: "LoTAS"
 
 alt: ""
-description: "A non-playback mod for version 1.8.9-1.19.2"
-weight: 3
+description: "A non-playback mod for version 1.8.9-1.19.4"
+weight: 02010100
+next: false
+prev: false
 ---
 
-A non-playback mod for version 1.8.9-1.19.2
+A non-playback mod for version 1.8.9-1.19.4
 
 ## Features
 
@@ -21,9 +23,9 @@ A non-playback mod for version 1.8.9-1.19.2
 *   And more!
 
 {{<rawhtml>}}
-<a href="https://github.com/MCPfannkuchenYT/LoTAS/releases"><img class="inlineBlock border hovered"
+<a href="https://github.com/MinecraftTAS/LoTAS/releases"><img class="inlineBlock border hovered"
 		src="/images/DownloadButton.svg" height="80" alt="Download Button"></a>
-<a href="https://github.com/MCPfannkuchenYT/LoTAS"><img class="inlineBlock border hovered"
+<a href="https://github.com/MinecraftTAS/LoTAS"><img class="inlineBlock border hovered"
 		src="/images/Github-Mark.svg" height="80" alt="GitHub logo"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/lotas"><img class="inlineBlock border hovered"
 		src="/images/CurseForge.svg" height="80" alt="Curseforge"></a>

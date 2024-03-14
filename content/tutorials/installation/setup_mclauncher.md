@@ -3,7 +3,7 @@ title: "Setup with Minecraft Launcher"
 icon: "/icons/Launcher.png"
 alt: "Minecraft Launcher icon"
 description: "Setup mods with the vanilla Minecraft launcher"
-weight: 14
+weight: 01040100
 toc: true
 ---
 ## MC version 1.14+ {#1-14-4}
